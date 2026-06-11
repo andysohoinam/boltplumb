@@ -197,6 +197,30 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* Helpful Links */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="font-semibold text-foreground mb-4">Related Pages</h3>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
+              { label: 'Our Services', href: '/services' },
+              { label: 'Why Choose Homeaspect', href: '/why-homeaspect' },
+              { label: 'FAQ', href: '/faq' },
+              { label: 'Blog & Guides', href: '/blog' },
+            ].map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="bg-card border border-border rounded-lg px-4 py-2 text-sm text-foreground hover:border-primary/20 hover:shadow-sm transition-all duration-200"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
       <WhatsAppFloat />
     </>

@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     'condo plumber singapore',
     'urgent plumber singapore',
     'same day plumber singapore',
+    'water heater repair singapore',
+    'pipe leak repair singapore',
+    'floor trap choke singapore',
+    'tap repair singapore',
+    'basin replacement singapore',
   ],
   openGraph: {
     type: 'website',
@@ -63,48 +68,65 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const localBusinessSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Homeaspect',
+    description:
+      '24-hour emergency plumbing services in Singapore. Fast response for pipe leaks, toilet chokes, water heater repair, and more.',
+    url: 'https://homeaspect.com.sg',
+    telephone: '+6596773465',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Singapore',
+      addressCountry: 'SG',
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: 'Singapore',
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: [
+        'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
+      ],
+      opens: '00:00',
+      closes: '23:59',
+    },
+    priceRange: '$$',
+    image: 'https://homeaspect.com.sg/og-image.jpg',
+    sameAs: ['https://wa.me/6596773465'],
+  };
+
+  const emergencyServiceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'EmergencyService',
+    name: 'Homeaspect Emergency Plumbing',
+    description: '24-hour emergency plumber in Singapore. Fast response within 30-60 minutes for burst pipes, toilet chokes, water leaks, and more.',
+    telephone: '+6596773465',
+    url: 'https://homeaspect.com.sg/emergency-plumbing',
+    areaServed: {
+      '@type': 'Country',
+      name: 'Singapore',
+    },
+    availableService: {
+      '@type': 'Service',
+      serviceType: 'Emergency Plumbing Repair',
+      areaServed: { '@type': 'Country', name: 'Singapore' },
+    },
+    openingHours: 'Mo-Su 00:00-23:59',
+  };
+
   return (
     <html lang="en">
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'LocalBusiness',
-              name: 'Homeaspect',
-              description:
-                '24-hour emergency plumbing services in Singapore. Fast response for pipe leaks, toilet chokes, water heater repair, and more.',
-              url: 'https://homeaspect.com.sg',
-              telephone: '+6596773465',
-              address: {
-                '@type': 'PostalAddress',
-                addressLocality: 'Singapore',
-                addressCountry: 'SG',
-              },
-              areaServed: {
-                '@type': 'Country',
-                name: 'Singapore',
-              },
-              openingHoursSpecification: {
-                '@type': 'OpeningHoursSpecification',
-                dayOfWeek: [
-                  'Monday',
-                  'Tuesday',
-                  'Wednesday',
-                  'Thursday',
-                  'Friday',
-                  'Saturday',
-                  'Sunday',
-                ],
-                opens: '00:00',
-                closes: '23:59',
-              },
-              priceRange: '$$',
-              image: 'https://homeaspect.com.sg/og-image.jpg',
-              sameAs: ['https://wa.me/6596773465'],
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(emergencyServiceSchema) }}
         />
       </head>
       <body className={inter.className}>

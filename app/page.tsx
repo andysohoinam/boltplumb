@@ -215,17 +215,29 @@ export default function HomePage() {
                 Serving All of Singapore
               </h2>
               <p className="text-muted-foreground max-w-xl mb-6">
-                Our plumbing technicians cover every corner of Singapore. Fast response times no matter where you are.
+                Our plumbing technicians cover every corner of Singapore. Fast response times no matter where you are. Select your area for local plumbing services.
               </p>
               <div className="flex flex-wrap gap-2">
-                {SERVICE_AREAS.map((area) => (
-                  <span
-                    key={area}
-                    className="bg-secondary text-foreground text-sm font-medium px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors cursor-default"
-                  >
-                    Plumber {area}
-                  </span>
-                ))}
+                {SERVICE_AREAS.map((area) => {
+                  const slug = `plumber-${area.toLowerCase().replace(/\s+/g, '-')}`;
+                  const hasPage = ['tampines', 'bedok', 'jurong', 'woodlands', 'sengkang', 'punggol', 'yishun', 'hougang', 'ang-mo-kio', 'bukit-batok'].includes(area.toLowerCase().replace(/\s+/g, '-'));
+                  return hasPage ? (
+                    <Link
+                      key={area}
+                      href={`/${slug}`}
+                      className="bg-secondary text-foreground text-sm font-medium px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors"
+                    >
+                      Plumber {area}
+                    </Link>
+                  ) : (
+                    <span
+                      key={area}
+                      className="bg-secondary text-foreground text-sm font-medium px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors cursor-default"
+                    >
+                      Plumber {area}
+                    </span>
+                  );
+                })}
               </div>
             </div>
             <div className="relative rounded-2xl overflow-hidden shadow-lg">

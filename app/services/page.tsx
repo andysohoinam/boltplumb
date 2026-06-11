@@ -1,10 +1,14 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { Header } from '@/components/shared/Header';
 import { Footer } from '@/components/shared/Footer';
 import { WhatsAppFloat } from '@/components/shared/WhatsAppFloat';
 import { PageHero } from '@/components/shared/PageHero';
 import { CTASection } from '@/components/shared/CTASection';
 import { ServiceGrid } from '@/components/shared/ServiceCard';
+import { ChevronRight, MessageCircle } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { WHATSAPP_FULL_LINK, LOCATION_SLUGS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Plumbing Services Singapore - Full Range of Residential Plumbing',
@@ -57,6 +61,69 @@ export default function ServicesPage() {
                 <h3 className="font-semibold text-foreground mb-1.5">{title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Locations We Serve */}
+      <section className="py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-foreground mb-3">Plumbers Across Singapore</h2>
+            <p className="text-muted-foreground max-w-xl mx-auto">
+              Local plumbing experts in your neighbourhood. Fast response wherever you are.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            {LOCATION_SLUGS.map((slug) => {
+              const areaName = slug.replace('plumber-', '').replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+              return (
+                <Link
+                  key={slug}
+                  href={`/${slug}`}
+                  className="bg-card border border-border rounded-lg p-4 text-center hover:shadow-md hover:border-primary/20 transition-all duration-200"
+                >
+                  <span className="font-medium text-foreground text-sm">Plumber {areaName}</span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Mid-page CTA */}
+      <div className="bg-primary/5 border-y border-primary/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <span className="text-sm text-muted-foreground">Not sure which service you need? WhatsApp us and we will advise.</span>
+          <a href={WHATSAPP_FULL_LINK} target="_blank" rel="noopener noreferrer">
+            <Button className="whatsapp-gradient text-white border-0 gap-2 cta-glow hover:opacity-90">
+              <MessageCircle className="h-4 w-4" />
+              WhatsApp Us
+            </Button>
+          </a>
+        </div>
+      </div>
+
+      {/* Helpful Links */}
+      <section className="py-12 bg-secondary/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="font-semibold text-foreground mb-4">Helpful Resources</h3>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
+              { label: 'Why Choose Homeaspect', href: '/why-homeaspect' },
+              { label: 'FAQ', href: '/faq' },
+              { label: 'Contact Us', href: '/contact' },
+              { label: 'Blog & Guides', href: '/blog' },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="bg-card border border-border rounded-lg px-4 py-2 text-sm text-foreground hover:border-primary/20 hover:shadow-sm transition-all duration-200 flex items-center gap-1.5"
+              >
+                {link.label} <ChevronRight className="h-3 w-3" />
+              </Link>
             ))}
           </div>
         </div>
