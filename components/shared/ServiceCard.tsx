@@ -22,7 +22,7 @@ export function ServiceCard({ slug, title, description, image, imageAlt }: Servi
         <Image
           src={image}
           alt={imageAlt}
-          title={title + ' - Homeaspect Singapore'}
+          title={title + ' - RedDot Emergency Singapore'}
           width={800}
           height={450}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

@@ -17,23 +17,23 @@ export function WhyHomeaspectContent() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'Why should I choose Homeaspect over other plumbers?',
+        name: 'Why should I choose RedDot Emergency over other plumbers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Homeaspect offers fast 30-60 minute emergency response, transparent pricing with no hidden fees, experienced technicians across all plumbing systems, and 24/7 availability including weekends and public holidays. We stand behind our work with a service warranty.',
+          text: 'RedDot Emergency offers fast 30-60 minute emergency response, transparent pricing with no hidden fees, experienced technicians across all plumbing systems, and 24/7 availability including weekends and public holidays. We stand behind our work with a service warranty.',
         },
       },
       {
         '@type': 'Question',
-        name: 'Is Homeaspect available on weekends and holidays?',
+        name: 'Is RedDot Emergency available on weekends and holidays?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, Homeaspect is available 24/7, including all weekends and public holidays in Singapore. Plumbing emergencies don\'t wait for business hours, so neither do we.',
+          text: 'Yes, RedDot Emergency is available 24/7, including all weekends and public holidays in Singapore. Plumbing emergencies don\'t wait for business hours, so neither do we.',
         },
       },
       {
         '@type': 'Question',
-        name: 'What makes Homeaspect technicians experienced?',
+        name: 'What makes RedDot Emergency technicians experienced?',
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'Our team consists of certified plumbers with years of hands-on experience in residential plumbing. We specialize in HDB and condo systems, and our technicians undergo continuous training to stay current with best practices.',
@@ -41,7 +41,7 @@ export function WhyHomeaspectContent() {
       },
       {
         '@type': 'Question',
-        name: 'Does Homeaspect handle both HDB and condo plumbing?',
+        name: 'Does RedDot Emergency handle both HDB and condo plumbing?',
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'Yes, we have extensive expertise in both HDB and private condominium plumbing systems. We understand the unique requirements and regulations for each type of residential property.',
@@ -49,7 +49,7 @@ export function WhyHomeaspectContent() {
       },
       {
         '@type': 'Question',
-        name: 'How does Homeaspect ensure transparent pricing?',
+        name: 'How does RedDot Emergency ensure transparent pricing?',
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'We provide upfront quotes before starting any work, with no hidden fees. The price we quote is what you pay. We discuss the work needed and cost estimates with you before proceeding.',
@@ -63,43 +63,43 @@ export function WhyHomeaspectContent() {
       name: 'Mrs Tan',
       area: 'Tampines',
       rating: 5,
-      text: 'My toilet burst pipe flooded our master bedroom at 3 AM. Homeaspect arrived within 45 minutes and fixed everything professionally. The technician was courteous and explained what he was doing. No hidden charges. Highly recommended!',
+      text: 'My toilet burst pipe flooded our master bedroom at 3 AM. RedDot Emergency arrived within 45 minutes and fixed everything professionally. The technician was courteous and explained what he was doing. No hidden charges. Highly recommended!',
     },
     {
       name: 'Mr Lim',
       area: 'Bedok',
       rating: 5,
-      text: 'Kitchen sink was completely choked and backed up into the stove area. Homeaspect cleared it in 30 minutes flat. They were punctual, professional, and the pricing was transparent. Will definitely call them again.',
+      text: 'Kitchen sink was completely choked and backed up into the stove area. RedDot Emergency cleared it in 30 minutes flat. They were punctual, professional, and the pricing was transparent. Will definitely call them again.',
     },
     {
       name: 'Ms Wong',
       area: 'Jurong',
       rating: 5,
-      text: 'Our water heater stopped working on a Sunday. Called Homeaspect expecting a long wait, but they arrived within an hour. Fixed it expertly and even gave us maintenance tips. Great service!',
+      text: 'Our water heater stopped working on a Sunday. Called RedDot Emergency expecting a long wait, but they arrived within an hour. Fixed it expertly and even gave us maintenance tips. Great service!',
     },
     {
       name: 'Mr Patel',
       area: 'Woodlands',
       rating: 5,
-      text: 'Had a persistent leak in our bathroom pipes. The Homeaspect technician identified the root cause and fixed it properly instead of applying a quick band-aid solution. Very impressed with their integrity.',
+      text: 'Had a persistent leak in our bathroom pipes. The RedDot Emergency technician identified the root cause and fixed it properly instead of applying a quick band-aid solution. Very impressed with their integrity.',
     },
     {
       name: 'Mrs Lee',
       area: 'Punggol',
       rating: 5,
-      text: 'Our HDB floor trap was causing foul odours. Homeaspect cleared it thoroughly and explained how to maintain it. The team was professional and efficient. Pricing was fair and upfront.',
+      text: 'Our HDB floor trap was causing foul odours. RedDot Emergency cleared it thoroughly and explained how to maintain it. The team was professional and efficient. Pricing was fair and upfront.',
     },
     {
       name: 'Mr Ng',
       area: 'Sengkang',
       rating: 5,
-      text: 'Tap was dripping non-stop, wasting water. Homeaspect replaced it quickly with a quality fixture. Technician cleaned up after himself. Excellent customer service throughout the process.',
+      text: 'Tap was dripping non-stop, wasting water. RedDot Emergency replaced it quickly with a quality fixture. Technician cleaned up after himself. Excellent customer service throughout the process.',
     },
     {
       name: 'Ms Chong',
       area: 'Hougang',
       rating: 5,
-      text: 'Experienced a major pipe leak at 2 AM. Despite the late hour, Homeaspect responded promptly and professionally. They prevented water damage to our unit and neighbouring flats. Truly commendable service.',
+      text: 'Experienced a major pipe leak at 2 AM. Despite the late hour, RedDot Emergency responded promptly and professionally. They prevented water damage to our unit and neighbouring flats. Truly commendable service.',
     },
     {
       name: 'Mr Rajesh',
@@ -111,13 +111,13 @@ export function WhyHomeaspectContent() {
       name: 'Mrs Koh',
       area: 'Clementi',
       rating: 5,
-      text: 'Our condo bathroom had a recurring choke issue. Homeaspect not only fixed it but also gave preventive maintenance advice. Transparent pricing and excellent follow-up made the experience seamless.',
+      text: 'Our condo bathroom had a recurring choke issue. RedDot Emergency not only fixed it but also gave preventive maintenance advice. Transparent pricing and excellent follow-up made the experience seamless.',
     },
     {
       name: 'Mr Sulaiman',
       area: 'Bukit Batok',
       rating: 5,
-      text: 'Called Homeaspect for an emergency water leak. They arrived quickly, diagnosed the problem accurately, and implemented a permanent solution. No pressure tactics, just honest and excellent work.',
+      text: 'Called RedDot Emergency for an emergency water leak. They arrived quickly, diagnosed the problem accurately, and implemented a permanent solution. No pressure tactics, just honest and excellent work.',
     },
   ];
 
@@ -187,18 +187,18 @@ export function WhyHomeaspectContent() {
       <Header />
 
       <PageHero
-        title="Why Choose Homeaspect"
+        title="Why Choose RedDot Emergency"
         description="Singapore's most trusted emergency plumbing service backed by transparent pricing, rapid response, and thousands of satisfied customers."
-        breadcrumbs={[{ label: 'Why Homeaspect' }]}
+        breadcrumbs={[{ label: 'Why RedDot Emergency' }]}
       />
 
-      {/* Why Choose Homeaspect Section */}
+      {/* Why Choose RedDot Emergency Section */}
       <section className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-3">Our Value Propositions</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Six core reasons why Homeaspect stands out as Singapore's most trusted emergency plumber.
+              Six core reasons why RedDot Emergency stands out as Singapore's most trusted emergency plumber.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -302,7 +302,7 @@ export function WhyHomeaspectContent() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Every technician at Homeaspect is a certified plumber with multiple years of hands-on residential plumbing experience. We don't send apprentices to your home—our team brings genuine expertise and professionalism to every call.
+                  Every technician at RedDot Emergency is a certified plumber with multiple years of hands-on residential plumbing experience. We don't send apprentices to your home—our team brings genuine expertise and professionalism to every call.
                 </p>
                 <p>
                   Our technicians are continuously trained on the latest plumbing techniques, tools, and best practices. They stay current with Singapore's building regulations and are familiar with all major plumbing fixtures and systems used in our homes.
@@ -464,7 +464,7 @@ export function WhyHomeaspectContent() {
               Customer Satisfaction Speaks
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Thousands of Singapore homeowners trust Homeaspect for their plumbing emergencies. Here are real testimonials from satisfied customers.
+              Thousands of Singapore homeowners trust RedDot Emergency for their plumbing emergencies. Here are real testimonials from satisfied customers.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -565,23 +565,23 @@ export function WhyHomeaspectContent() {
           <div className="space-y-4">
             {[
               {
-                q: 'Why should I choose Homeaspect over other plumbers?',
-                a: 'Homeaspect offers fast 30-60 minute emergency response, transparent pricing with no hidden fees, experienced technicians across all plumbing systems, and 24/7 availability including weekends and public holidays. We stand behind our work with a service warranty.',
+                q: 'Why should I choose RedDot Emergency over other plumbers?',
+                a: 'RedDot Emergency offers fast 30-60 minute emergency response, transparent pricing with no hidden fees, experienced technicians across all plumbing systems, and 24/7 availability including weekends and public holidays. We stand behind our work with a service warranty.',
               },
               {
-                q: 'Is Homeaspect available on weekends and holidays?',
-                a: 'Yes, Homeaspect is available 24/7, including all weekends and public holidays in Singapore. Plumbing emergencies don\'t wait for business hours, so neither do we.',
+                q: 'Is RedDot Emergency available on weekends and holidays?',
+                a: 'Yes, RedDot Emergency is available 24/7, including all weekends and public holidays in Singapore. Plumbing emergencies don\'t wait for business hours, so neither do we.',
               },
               {
-                q: 'What makes Homeaspect technicians experienced?',
+                q: 'What makes RedDot Emergency technicians experienced?',
                 a: 'Our team consists of certified plumbers with years of hands-on experience in residential plumbing. We specialize in HDB and condo systems, and our technicians undergo continuous training to stay current with best practices.',
               },
               {
-                q: 'Does Homeaspect handle both HDB and condo plumbing?',
+                q: 'Does RedDot Emergency handle both HDB and condo plumbing?',
                 a: 'Yes, we have extensive expertise in both HDB and private condominium plumbing systems. We understand the unique requirements and regulations for each type of residential property.',
               },
               {
-                q: 'How does Homeaspect ensure transparent pricing?',
+                q: 'How does RedDot Emergency ensure transparent pricing?',
                 a: 'We provide upfront quotes before starting any work, with no hidden fees. The price we quote is what you pay. We discuss the work needed and cost estimates with you before proceeding.',
               },
             ].map((item, idx) => (
@@ -663,7 +663,7 @@ export function WhyHomeaspectContent() {
       <section className="py-16 sm:py-20 bg-secondary/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTASection
-            headline="Ready to Experience Homeaspect?"
+            headline="Ready to Experience RedDot Emergency?"
             subtext="Join thousands of Singapore homeowners who trust us with their plumbing emergencies. One message away from professional, honest service."
           />
         </div>

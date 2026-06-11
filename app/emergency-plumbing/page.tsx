@@ -12,10 +12,10 @@ import { WHATSAPP_FULL_LINK, EMERGENCY_SERVICES } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Emergency Plumber Singapore - 24 Hour Fast Response',
   description:
-    'Homeaspect provides 24-hour emergency plumbing services in Singapore. Fast response within 30-60 minutes for burst pipes, water leaks, toilet chokes, and more. WhatsApp +65 9677 3465 now.',
+    'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response within 30-60 minutes for burst pipes, water leaks, toilet chokes, and more. WhatsApp +65 9677 3465 now.',
   alternates: { canonical: 'https://homeaspect.com.sg/emergency-plumbing' },
   openGraph: {
-    title: 'Emergency Plumber Singapore - 24 Hour Fast Response | Homeaspect',
+    title: 'Emergency Plumber Singapore - 24 Hour Fast Response | RedDot Emergency',
     description: '24-hour emergency plumbing in Singapore. 30-60 min response. WhatsApp now.',
     url: 'https://homeaspect.com.sg/emergency-plumbing',
   },
@@ -256,8 +256,8 @@ export default function EmergencyPlumbingPage() {
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="https://images.pexels.com/photos/8186482/pexels-photo-8186482.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Singapore HDB residential buildings where Homeaspect provides emergency plumbing"
-                title="Homeaspect emergency plumber serving Singapore HDB and condo areas"
+                alt="Singapore HDB residential buildings where RedDot Emergency provides emergency plumbing"
+                title="RedDot Emergency emergency plumber serving Singapore HDB and condo areas"
                 width={800}
                 height={500}
                 className="w-full h-80 object-cover"
@@ -296,7 +296,7 @@ export default function EmergencyPlumbingPage() {
           <CTASection
             variant="emergency"
             headline="Plumbing Emergency? We Are On Our Way."
-            subtext="Do not wait for the problem to get worse. WhatsApp Homeaspect now for fast, professional emergency plumbing anywhere in Singapore."
+            subtext="Do not wait for the problem to get worse. WhatsApp RedDot Emergency now for fast, professional emergency plumbing anywhere in Singapore."
           />
         </div>
       </section>
@@ -308,7 +308,7 @@ export default function EmergencyPlumbingPage() {
           <div className="flex flex-wrap gap-3">
             {[
               { label: 'Our Services', href: '/services' },
-              { label: 'Why Choose Homeaspect', href: '/why-homeaspect' },
+              { label: 'Why Choose RedDot Emergency', href: '/why-homeaspect' },
               { label: 'FAQ', href: '/faq' },
               { label: 'Contact Us', href: '/contact' },
               { label: 'Blog & Guides', href: '/blog' },

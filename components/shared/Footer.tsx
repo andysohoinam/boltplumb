@@ -10,10 +10,13 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="h-9 w-9 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">H</span>
+              <div className="h-9 w-9 bg-primary rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-xs">RD</span>
               </div>
-              <span className="font-bold text-xl tracking-tight">{COMPANY_NAME}</span>
+              <div className="flex flex-col leading-none">
+                <span className="font-bold text-lg text-white tracking-tight">RedDot</span>
+                <span className="text-[10px] font-semibold text-primary tracking-widest uppercase">Emergency</span>
+              </div>
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
               Singapore&apos;s trusted 24-hour emergency plumbing service. Fast response, transparent pricing, experienced technicians.

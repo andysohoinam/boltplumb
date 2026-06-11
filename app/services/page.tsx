@@ -13,10 +13,10 @@ import { WHATSAPP_FULL_LINK, LOCATION_SLUGS } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Plumbing Services Singapore - Full Range of Residential Plumbing',
   description:
-    'Homeaspect provides comprehensive plumbing services in Singapore including toilet choke repair, pipe leak repair, water heater repair, sink unblocking, and more. WhatsApp +65 9677 3465.',
+    'RedDot Emergency provides comprehensive plumbing services in Singapore including toilet choke repair, pipe leak repair, water heater repair, sink unblocking, and more. WhatsApp +65 9677 3465.',
   alternates: { canonical: 'https://homeaspect.com.sg/services' },
   openGraph: {
-    title: 'Plumbing Services Singapore - Homeaspect',
+    title: 'Plumbing Services Singapore - RedDot Emergency',
     description: 'Comprehensive residential plumbing services across Singapore. Toilet chokes, pipe leaks, water heaters, and more.',
     url: 'https://homeaspect.com.sg/services',
   },
@@ -45,7 +45,7 @@ export default function ServicesPage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-foreground mb-3">Additional Services</h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Beyond our core services, Homeaspect also handles these plumbing needs.
+              Beyond our core services, RedDot Emergency also handles these plumbing needs.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -112,7 +112,7 @@ export default function ServicesPage() {
           <div className="flex flex-wrap gap-3">
             {[
               { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
-              { label: 'Why Choose Homeaspect', href: '/why-homeaspect' },
+              { label: 'Why Choose RedDot Emergency', href: '/why-homeaspect' },
               { label: 'FAQ', href: '/faq' },
               { label: 'Contact Us', href: '/contact' },
               { label: 'Blog & Guides', href: '/blog' },
@@ -133,7 +133,7 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTASection
             headline="Need Plumbing Service? Contact Us Now"
-            subtext="Whether it is an emergency or a scheduled repair, Homeaspect is ready to help. WhatsApp us for fast, professional plumbing service."
+            subtext="Whether it is an emergency or a scheduled repair, RedDot Emergency is ready to help. WhatsApp us for fast, professional plumbing service."
           />
         </div>
       </section>

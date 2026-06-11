@@ -226,7 +226,7 @@ export function LocationPage({ location }: LocationPageProps) {
           <CTASection
             variant="emergency"
             headline={`Need a Plumber in ${location.area}?`}
-            subtext={`Homeaspect provides fast, professional plumbing service in ${location.area} and nearby areas. Contact us now for same-day assistance.`}
+            subtext={`RedDot Emergency provides fast, professional plumbing service in ${location.area} and nearby areas. Contact us now for same-day assistance.`}
           />
         </div>
       </section>

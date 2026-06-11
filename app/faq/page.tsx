@@ -12,10 +12,10 @@ import { FAQS } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'FAQ - Singapore Emergency Plumbing Questions Answered',
   description:
-    'Frequently asked questions about Homeaspect emergency plumbing services in Singapore. Response times, pricing, HDB services, service areas, and more.',
+    'Frequently asked questions about RedDot Emergency emergency plumbing services in Singapore. Response times, pricing, HDB services, service areas, and more.',
   alternates: { canonical: 'https://homeaspect.com.sg/faq' },
   openGraph: {
-    title: 'FAQ - Singapore Emergency Plumbing Questions | Homeaspect',
+    title: 'FAQ - Singapore Emergency Plumbing Questions | RedDot Emergency',
     description: 'Common questions about emergency plumbing in Singapore answered. Response times, pricing, HDB and condo services.',
     url: 'https://homeaspect.com.sg/faq',
   },
@@ -83,7 +83,7 @@ export default function FAQPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTASection
             headline="Still Have Questions?"
-            subtext="Contact Homeaspect directly via WhatsApp. We are happy to answer any questions about our plumbing services."
+            subtext="Contact RedDot Emergency directly via WhatsApp. We are happy to answer any questions about our plumbing services."
             variant="compact"
           />
         </div>

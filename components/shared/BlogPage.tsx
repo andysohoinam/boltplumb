@@ -32,8 +32,8 @@ export function BlogPage({ article }: BlogPageProps) {
     headline: article.title,
     description: article.metaDescription,
     datePublished: article.publishedDate,
-    author: { '@type': 'Organization', name: 'Homeaspect' },
-    publisher: { '@type': 'Organization', name: 'Homeaspect', url: 'https://homeaspect.com.sg' },
+    author: { '@type': 'Organization', name: 'RedDot Emergency' },
+    publisher: { '@type': 'Organization', name: 'RedDot Emergency', url: 'https://homeaspect.com.sg' },
   };
 
   return (
@@ -93,11 +93,11 @@ export function BlogPage({ article }: BlogPageProps) {
           {/* Mid-article CTA */}
           <div className="bg-primary/5 border border-primary/10 rounded-2xl p-6 my-12 text-center">
             <h3 className="font-semibold text-foreground mb-2">Need Professional Plumbing Help?</h3>
-            <p className="text-sm text-muted-foreground mb-4">Homeaspect provides 24/7 emergency plumbing services across Singapore. WhatsApp us for fast assistance.</p>
+            <p className="text-sm text-muted-foreground mb-4">RedDot Emergency provides 24/7 emergency plumbing services across Singapore. WhatsApp us for fast assistance.</p>
             <a href={WHATSAPP_FULL_LINK} target="_blank" rel="noopener noreferrer">
               <Button className="whatsapp-gradient text-white border-0 gap-2 cta-glow hover:opacity-90">
                 <MessageCircle className="h-4 w-4" />
-                WhatsApp Homeaspect
+                WhatsApp RedDot Emergency
               </Button>
             </a>
           </div>
@@ -141,7 +141,7 @@ export function BlogPage({ article }: BlogPageProps) {
           <CTASection
             variant="emergency"
             headline="Plumbing Problem? We Can Help."
-            subtext="Contact Homeaspect now for fast, professional plumbing service anywhere in Singapore. Available 24/7."
+            subtext="Contact RedDot Emergency now for fast, professional plumbing service anywhere in Singapore. Available 24/7."
           />
         </div>
       </section>

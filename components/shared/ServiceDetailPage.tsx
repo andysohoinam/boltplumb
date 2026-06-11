@@ -37,7 +37,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
     description: service.metaDescription,
     provider: {
       '@type': 'LocalBusiness',
-      name: 'Homeaspect',
+      name: 'RedDot Emergency',
       telephone: '+6596773465',
       areaServed: { '@type': 'Country', name: 'Singapore' },
     },
@@ -84,7 +84,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 <Image
                   src={service.heroImage}
                   alt={service.heroImageAlt}
-                  title={service.title + ' - Homeaspect Singapore'}
+                  title={service.title + ' - RedDot Emergency Singapore'}
                   width={800}
                   height={500}
                   className="w-full h-56 object-cover"
@@ -123,7 +123,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <Image
                     src={service.issueImages[index]}
                     alt={`${title} - ${service.title} Singapore`}
-                    title={title + ' - Homeaspect Singapore'}
+                    title={title + ' - RedDot Emergency Singapore'}
                     width={600}
                     height={300}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -185,7 +185,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h3 className="font-semibold text-foreground mb-1">Experiencing {service.title.toLowerCase()} issues?</h3>
-            <p className="text-sm text-muted-foreground">Do not wait for the problem to get worse. Contact Homeaspect now.</p>
+            <p className="text-sm text-muted-foreground">Do not wait for the problem to get worse. Contact RedDot Emergency now.</p>
           </div>
           <div className="flex gap-3">
             <a href={WHATSAPP_FULL_LINK} target="_blank" rel="noopener noreferrer">
@@ -250,7 +250,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       {/* Why Choose Us */}
       <section className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-foreground mb-8">Why Choose Homeaspect for {service.title}</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-8">Why Choose RedDot Emergency for {service.title}</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             {service.whyUs.map(({ title, description }) => (
               <div key={title} className="flex gap-4 items-start">
@@ -320,7 +320,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           <CTASection
             variant="emergency"
             headline={`Need ${service.title}?`}
-            subtext={`Contact Homeaspect now for fast, professional ${service.title.toLowerCase()} service anywhere in Singapore. We respond within 30-60 minutes.`}
+            subtext={`Contact RedDot Emergency now for fast, professional ${service.title.toLowerCase()} service anywhere in Singapore. We respond within 30-60 minutes.`}
           />
         </div>
       </section>

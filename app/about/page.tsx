@@ -9,12 +9,12 @@ import { BadgeCheck, CheckCircle, Zap, Shield, Wrench, Clock, Award, Heart } fro
 import { ABOUT_IMAGES } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'About Homeaspect - Trusted Singapore Emergency Plumber',
+  title: 'About RedDot Emergency - Trusted Singapore Emergency Plumber',
   description:
-    'Learn about Homeaspect, Singapore\'s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing, and fast response across all areas.',
+    'Learn about RedDot Emergency, Singapore\'s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing, and fast response across all areas.',
   alternates: { canonical: 'https://homeaspect.com.sg/about' },
   openGraph: {
-    title: 'About Homeaspect - Trusted Singapore Emergency Plumber',
+    title: 'About RedDot Emergency - Trusted Singapore Emergency Plumber',
     description: 'Singapore\'s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing.',
     url: 'https://homeaspect.com.sg/about',
   },
@@ -26,7 +26,7 @@ export default function AboutPage() {
       <Header />
 
       <PageHero
-        title="About Homeaspect"
+        title="About RedDot Emergency"
         description="Singapore's trusted emergency plumbing partner. Reliable, fast, and committed to solving your plumbing problems."
         breadcrumbs={[{ label: 'About' }]}
       />
@@ -41,13 +41,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Homeaspect was founded with a straightforward mission: give Singapore homeowners access to plumbing help that actually shows up on time, does the job right, and charges fairly.
+                  RedDot Emergency was founded with a straightforward mission: give Singapore homeowners access to plumbing help that actually shows up on time, does the job right, and charges fairly.
                 </p>
                 <p>
                   We understand the stress of a plumbing emergency. Water damage can escalate quickly, and waiting hours for a plumber who never arrives only makes things worse. That is why we built our service around speed and accountability.
                 </p>
                 <p>
-                  Every technician on our team is experienced, equipped, and committed to solving your issue efficiently. Whether it is a burst pipe at 2 AM or a stubborn toilet choke on a Sunday afternoon, Homeaspect is ready to respond.
+                  Every technician on our team is experienced, equipped, and committed to solving your issue efficiently. Whether it is a burst pipe at 2 AM or a stubborn toilet choke on a Sunday afternoon, RedDot Emergency is ready to respond.
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function AboutPage() {
                 <Image
                   src={ABOUT_IMAGES.team}
                   alt={ABOUT_IMAGES.teamAlt}
-                  title="Homeaspect professional plumbing team at work in Singapore"
+                  title="RedDot Emergency professional plumbing team at work in Singapore"
                   width={800}
                   height={500}
                   className="w-full h-72 object-cover"
@@ -157,8 +157,8 @@ export default function AboutPage() {
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="https://images.pexels.com/photos/8186482/pexels-photo-8186482.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Singapore HDB residential buildings where Homeaspect provides plumbing services"
-                title="Homeaspect serves all Singapore HDB and condo areas"
+                alt="Singapore HDB residential buildings where RedDot Emergency provides plumbing services"
+                title="RedDot Emergency serves all Singapore HDB and condo areas"
                 width={800}
                 height={500}
                 className="w-full h-80 object-cover"
@@ -187,7 +187,7 @@ export default function AboutPage() {
       {/* Why Trust Us */}
       <section className="py-16 sm:py-20 bg-secondary/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Why Singapore Trusts Homeaspect</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Why Singapore Trusts RedDot Emergency</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { title: 'HDB Specialists', desc: 'Experienced with all HDB plumbing configurations and regulations' },
@@ -212,7 +212,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTASection
             headline="Need a Plumber You Can Trust?"
-            subtext="Homeaspect is one WhatsApp message away. Fast, honest, and experienced plumbing service across Singapore."
+            subtext="RedDot Emergency is one WhatsApp message away. Fast, honest, and experienced plumbing service across Singapore."
           />
         </div>
       </section>

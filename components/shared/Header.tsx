@@ -15,12 +15,17 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-18">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <div className="h-9 w-9 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">H</span>
+            <div className="h-9 w-9 bg-primary rounded-full flex items-center justify-center relative">
+              <span className="text-white font-bold text-xs">RD</span>
             </div>
-            <span className="font-bold text-xl text-foreground tracking-tight">
-              Homeaspect
-            </span>
+            <div className="flex flex-col leading-none">
+              <span className="font-bold text-lg text-foreground tracking-tight">
+                RedDot
+              </span>
+              <span className="text-[10px] font-semibold text-primary tracking-widest uppercase">
+                Emergency
+              </span>
+            </div>
           </Link>
 
           {/* Desktop nav */}

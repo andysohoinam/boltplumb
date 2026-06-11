@@ -8,11 +8,11 @@ import { CTASection } from '@/components/shared/CTASection';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Plumbing Tips & Guides Singapore | Homeaspect Blog',
+  title: 'Plumbing Tips & Guides Singapore | RedDot Emergency Blog',
   description: 'Expert plumbing tips, guides, and maintenance advice for Singapore homeowners. Learn about pipe leaks, toilet chokes, water heaters, and HDB plumbing.',
   alternates: { canonical: 'https://homeaspect.com.sg/blog' },
   openGraph: {
-    title: 'Plumbing Tips & Guides Singapore | Homeaspect Blog',
+    title: 'Plumbing Tips & Guides Singapore | RedDot Emergency Blog',
     description: 'Expert plumbing advice for Singapore homeowners. Tips on pipe leaks, toilet chokes, water heaters, and more.',
     url: 'https://homeaspect.com.sg/blog',
   },
@@ -63,7 +63,7 @@ export default function BlogIndexPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTASection
             headline="Need Professional Plumbing Help?"
-            subtext="Our blog provides helpful tips, but nothing beats professional service. Contact Homeaspect for fast, reliable plumbing assistance."
+            subtext="Our blog provides helpful tips, but nothing beats professional service. Contact RedDot Emergency for fast, reliable plumbing assistance."
           />
         </div>
       </section>

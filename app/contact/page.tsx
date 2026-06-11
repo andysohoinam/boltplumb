@@ -9,13 +9,13 @@ import { Button } from '@/components/ui/button';
 import { WHATSAPP_FULL_LINK } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Contact Homeaspect - Emergency Plumber Singapore',
+  title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
   description:
-    'Contact Homeaspect for 24-hour emergency plumbing services in Singapore. WhatsApp +65 9677 3465 or call for fast response.',
+    'Contact RedDot Emergency for 24-hour emergency plumbing services in Singapore. WhatsApp +65 9677 3465 or call for fast response.',
   alternates: { canonical: 'https://homeaspect.com.sg/contact' },
   openGraph: {
-    title: 'Contact Homeaspect - Emergency Plumber Singapore',
-    description: 'WhatsApp or call Homeaspect for 24-hour emergency plumbing. Fast response across Singapore.',
+    title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
+    description: 'WhatsApp or call RedDot Emergency for 24-hour emergency plumbing. Fast response across Singapore.',
     url: 'https://homeaspect.com.sg/contact',
   },
 };
@@ -26,7 +26,7 @@ export default function ContactPage() {
       <Header />
 
       <PageHero
-        title="Contact Homeaspect"
+        title="Contact RedDot Emergency"
         description="Get in touch for fast, reliable plumbing service anywhere in Singapore. We are available 24/7."
         breadcrumbs={[{ label: 'Contact' }]}
       />
@@ -91,7 +91,7 @@ export default function ContactPage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-foreground mb-3">What Our Customers Say</h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Real feedback from homeowners across Singapore who trusted Homeaspect with their plumbing emergencies.
+              Real feedback from homeowners across Singapore who trusted RedDot Emergency with their plumbing emergencies.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -100,7 +100,7 @@ export default function ContactPage() {
                 name: 'Ariel T.',
                 area: 'Tampines',
                 rating: 5,
-                text: 'Called Homeaspect at 11pm when my toilet choked completely. They arrived within 45 minutes and cleared the blockage on the spot. Very professional and no hidden charges. Highly recommend for any HDB plumbing issue.',
+                text: 'Called RedDot Emergency at 11pm when my toilet choked completely. They arrived within 45 minutes and cleared the blockage on the spot. Very professional and no hidden charges. Highly recommend for any HDB plumbing issue.',
               },
               {
                 name: 'Maruf K.',
@@ -112,31 +112,31 @@ export default function ContactPage() {
                 name: 'Catherine L.',
                 area: 'Bedok',
                 rating: 5,
-                text: 'Had a persistent kitchen sink choke that DIY methods could not fix. Homeaspect cleared it in under 30 minutes. The plumber also gave me tips on preventing future clogs. Honest and knowledgeable.',
+                text: 'Had a persistent kitchen sink choke that DIY methods could not fix. RedDot Emergency cleared it in under 30 minutes. The plumber also gave me tips on preventing future clogs. Honest and knowledgeable.',
               },
               {
                 name: 'Ivan T.',
                 area: 'Woodlands',
                 rating: 5,
-                text: 'Pipe burst in my bathroom at 2am. I was panicking but Homeaspect picked up my call immediately and dispatched someone within the hour. They stopped the leak and repaired the pipe properly. Lifesavers.',
+                text: 'Pipe burst in my bathroom at 2am. I was panicking but RedDot Emergency picked up my call immediately and dispatched someone within the hour. They stopped the leak and repaired the pipe properly. Lifesavers.',
               },
               {
                 name: 'David W.',
                 area: 'Sengkang',
                 rating: 5,
-                text: 'Engaged Homeaspect to replace my bathroom basin and tap. Clean installation, no mess left behind, and the pricing was exactly as quoted. Will use them again for any plumbing work.',
+                text: 'Engaged RedDot Emergency to replace my bathroom basin and tap. Clean installation, no mess left behind, and the pricing was exactly as quoted. Will use them again for any plumbing work.',
               },
               {
                 name: 'Esther C.',
                 area: 'Clementi',
                 rating: 5,
-                text: 'Floor trap in my bathroom kept causing water to pool. Previous plumber could not solve it permanently but Homeaspect did a thorough deep clearing and the drain has been flowing perfectly since. Very impressed.',
+                text: 'Floor trap in my bathroom kept causing water to pool. Previous plumber could not solve it permanently but RedDot Emergency did a thorough deep clearing and the drain has been flowing perfectly since. Very impressed.',
               },
               {
                 name: 'Jason C.',
                 area: 'Ang Mo Kio',
                 rating: 5,
-                text: 'My kitchen tap was dripping for weeks and the water bill was creeping up. Homeaspect replaced the cartridge in 20 minutes. Quick, affordable, and the plumber was very courteous throughout.',
+                text: 'My kitchen tap was dripping for weeks and the water bill was creeping up. RedDot Emergency replaced the cartridge in 20 minutes. Quick, affordable, and the plumber was very courteous throughout.',
               },
               {
                 name: 'Jimmy C.',
@@ -148,7 +148,7 @@ export default function ContactPage() {
                 name: 'Kian C.',
                 area: 'Hougang',
                 rating: 5,
-                text: 'Second time using Homeaspect and they remain consistent. Fast response, transparent pricing, and quality work. This time it was a water heater replacement in my HDB flat. Done within 2 hours with proper safety checks.',
+                text: 'Second time using RedDot Emergency and they remain consistent. Fast response, transparent pricing, and quality work. This time it was a water heater replacement in my HDB flat. Done within 2 hours with proper safety checks.',
               },
             ].map((review) => (
               <div key={review.name} className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all duration-300">
@@ -179,7 +179,7 @@ export default function ContactPage() {
             <a href={WHATSAPP_FULL_LINK} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="whatsapp-gradient text-white border-0 gap-2 px-10 cta-glow hover:opacity-90">
                 <MessageCircle className="h-5 w-5" />
-                WhatsApp Homeaspect Now
+                WhatsApp RedDot Emergency Now
               </Button>
             </a>
           </div>
@@ -192,7 +192,7 @@ export default function ContactPage() {
           <CTASection
             variant="emergency"
             headline="Plumbing Problem? Let Us Help."
-            subtext="One WhatsApp message or phone call is all it takes. Homeaspect is standing by 24/7."
+            subtext="One WhatsApp message or phone call is all it takes. RedDot Emergency is standing by 24/7."
           />
         </div>
       </section>
@@ -205,7 +205,7 @@ export default function ContactPage() {
             {[
               { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
               { label: 'Our Services', href: '/services' },
-              { label: 'Why Choose Homeaspect', href: '/why-homeaspect' },
+              { label: 'Why Choose RedDot Emergency', href: '/why-homeaspect' },
               { label: 'FAQ', href: '/faq' },
               { label: 'Blog & Guides', href: '/blog' },
             ].map((link) => (

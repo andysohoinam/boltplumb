@@ -5,10 +5,11 @@ import { WhatsAppFloat } from '@/components/shared/WhatsAppFloat';
 import { CTASection } from '@/components/shared/CTASection';
 import { ServiceGrid } from '@/components/shared/ServiceCard';
 import { FAQAccordion } from '@/components/shared/FAQAccordion';
-import { MessageCircle, Phone, Shield, Clock, BadgeCheck, ChevronRight, AlertTriangle } from 'lucide-react';
+import { MessageCircle, Phone, Shield, Clock, BadgeCheck, ChevronRight, AlertTriangle, Star, MapPin, CheckCircle, Wrench } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { WHATSAPP_FULL_LINK, SERVICE_AREAS, TRUST_ITEMS, EMERGENCY_SERVICES } from '@/lib/constants';
+import { WHATSAPP_FULL_LINK, SERVICE_AREAS, TRUST_ITEMS, EMERGENCY_SERVICES, LOCATION_SLUGS } from '@/lib/constants';
+import { testimonials } from '@/lib/trustData';
 
 export default function HomePage() {
   return (
@@ -32,7 +33,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-lg sm:text-xl text-white/70 mb-8 leading-relaxed">
-                Burst pipe? Toilet choke? Water leak? Homeaspect responds fast across Singapore. Experienced technicians, transparent pricing, no hidden fees.
+                Burst pipe? Toilet choke? Water leak? RedDot Emergency responds fast across Singapore. Experienced technicians, transparent pricing, no hidden fees.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -66,7 +67,7 @@ export default function HomePage() {
                 <Image
                   src="https://images.pexels.com/photos/15206136/pexels-photo-15206136/free-photo-of-leaking-pipe-fixed-with-plastic.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Water leaking from pipe in Singapore home requiring emergency plumber"
-                  title="Emergency pipe leak in Singapore home - Homeaspect responds fast"
+                  title="Emergency pipe leak in Singapore home - RedDot Emergency responds fast"
                   width={800}
                   height={600}
                   className="w-full h-[420px] object-cover"
@@ -91,27 +92,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Trust Badges with Photos */}
-      <section className="py-12 sm:py-16 border-b border-border">
+      {/* Trust Block - E-E-A-T Signals */}
+      <section className="py-12 sm:py-16 border-b border-border bg-primary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            {TRUST_ITEMS.map((item) => (
-              <div key={item.title} className="text-center group">
-                <div className="relative h-28 sm:h-32 rounded-xl overflow-hidden mb-3">
-                  <Image
-                    src={item.image}
-                    alt={item.imageAlt}
-                    title={item.title + ' - Homeaspect Singapore'}
-                    width={400}
-                    height={250}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    loading="lazy"
-                    sizes="(max-width: 640px) 50vw, 25vw"
-                  />
-                  <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors" />
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8">
+            {[
+              { icon: MapPin, title: 'Singapore-Wide Coverage', desc: 'All HDB estates, condos, and landed properties across every district' },
+              { icon: Clock, title: 'Fast Emergency Response', desc: '30-60 minute average response time, 24 hours a day, 7 days a week' },
+              { icon: Wrench, title: 'Residential Specialists', desc: 'HDB and condo plumbing experts with years of Singapore-specific experience' },
+              { icon: Shield, title: 'Transparent Pricing', desc: 'Upfront quotes with no hidden fees. Know the cost before work begins' },
+              { icon: MessageCircle, title: 'WhatsApp Support', desc: 'Reach us instantly via WhatsApp at +65 9677 3465 for fast assistance' },
+            ].map(({ icon: Icon, title, desc }) => (
+              <div key={title} className="text-center">
+                <div className="h-12 w-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-3">
+                  <Icon className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-foreground mb-1">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
+                <h3 className="font-semibold text-foreground mb-1 text-sm">{title}</h3>
+                <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
@@ -206,16 +203,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Service Areas */}
+      {/* Trusted Across Singapore */}
       <section className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-3">
-                Serving All of Singapore
+                Trusted Across Singapore
               </h2>
               <p className="text-muted-foreground max-w-xl mb-6">
-                Our plumbing technicians cover every corner of Singapore. Fast response times no matter where you are. Select your area for local plumbing services.
+                RedDot Emergency is the plumbing service Singapore homeowners rely on. From mature HDB estates in the east to newer developments in the north, our technicians are locally positioned for rapid response. We understand the plumbing challenges unique to each neighbourhood — aging pipes in older towns, modern system complexity in new BTO estates, and condo-specific requirements islandwide.
               </p>
               <div className="flex flex-wrap gap-2">
                 {SERVICE_AREAS.map((area) => {
@@ -243,8 +240,8 @@ export default function HomePage() {
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="https://images.pexels.com/photos/8186482/pexels-photo-8186482.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Singapore HDB residential buildings where Homeaspect provides plumbing services"
-                title="Homeaspect serves all Singapore HDB and condo areas"
+                alt="Singapore HDB residential buildings where RedDot Emergency provides plumbing services"
+                title="RedDot Emergency serves all Singapore HDB and condo areas"
                 width={800}
                 height={500}
                 className="w-full h-80 object-cover"
@@ -282,12 +279,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Final CTA */}
+      {/* Customer Reviews */}
       <section className="py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-3">
+              What Our Customers Say
+            </h2>
+            <p className="text-muted-foreground max-w-xl mx-auto">
+              Real feedback from Singapore homeowners who trusted RedDot Emergency with their plumbing emergencies.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {testimonials.slice(0, 6).map((review) => (
+              <div key={review.name + review.estate} className="bg-card border border-border rounded-xl p-5 hover:shadow-md transition-all duration-300">
+                <div className="flex items-center gap-1 mb-3">
+                  {Array.from({ length: review.rating }).map((_, i) => (
+                    <Star key={i} className="h-4 w-4 fill-amber-400 text-amber-400" />
+                  ))}
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">{review.text}</p>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="font-semibold text-foreground text-sm">{review.name}</div>
+                    <div className="text-xs text-muted-foreground">{review.estate} &middot; {review.service}</div>
+                  </div>
+                  <CheckCircle className="h-4 w-4 text-accent" />
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/why-homeaspect">
+              <Button variant="outline" className="gap-2">
+                See Why Customers Choose Us <ChevronRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-16 sm:py-20 bg-secondary/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <CTASection
             headline="Ready to Fix Your Plumbing Issue?"
-            subtext="Contact Homeaspect today for fast, reliable plumbing service anywhere in Singapore. One message is all it takes."
+            subtext="Contact RedDot Emergency today for fast, reliable plumbing service anywhere in Singapore. One message is all it takes."
           />
         </div>
       </section>
