@@ -168,6 +168,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/reddot_emergency_plumbing_logo.jfif" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="/reddot_emergency_plumbing_logo.jfif" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}

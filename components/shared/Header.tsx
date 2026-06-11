@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 import { NAV_LINKS, WHATSAPP_FULL_LINK } from '@/lib/constants';
 import { Button } from '@/components/ui/button';
@@ -15,9 +16,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-18">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <div className="h-9 w-9 bg-primary rounded-full flex items-center justify-center relative">
-              <span className="text-white font-bold text-xs">RD</span>
-            </div>
+            <Image
+              src="/reddot_emergency_plumbing_logo.jfif"
+              alt="RedDot Emergency Plumbing Logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 object-contain"
+              priority
+            />
             <div className="flex flex-col leading-none">
               <span className="font-bold text-lg text-foreground tracking-tight">
                 RedDot

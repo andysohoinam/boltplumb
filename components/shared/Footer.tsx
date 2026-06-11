@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { MessageCircle, Phone, MapPin, Clock } from 'lucide-react';
 import { NAV_LINKS, WHATSAPP_FULL_LINK, SERVICE_AREAS, SERVICES, COMPANY_NAME } from '@/lib/constants';
 
@@ -10,9 +11,13 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="h-9 w-9 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xs">RD</span>
-              </div>
+              <Image
+                src="/reddot_emergency_plumbing_logo.jfif"
+                alt="RedDot Emergency Plumbing Logo"
+                width={40}
+                height={40}
+                className="h-10 w-10 object-contain"
+              />
               <div className="flex flex-col leading-none">
                 <span className="font-bold text-lg text-white tracking-tight">RedDot</span>
                 <span className="text-[10px] font-semibold text-primary tracking-widest uppercase">Emergency</span>

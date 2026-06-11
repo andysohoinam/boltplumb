@@ -47,12 +47,12 @@ export function PlumbingAdviceContent() {
               <p>
                 For HDB residents, if flooding affects common areas or is spreading to neighboring units, contact your Town Council and PUB immediately. The PUB emergency number is 1800-2255-226. If the situation involves severe flooding or risk to life, contact SCDF (Singapore Civil Defence Force) at 995. These agencies can provide additional support and guidance for managing large-scale water emergencies.
               </p>
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
-                <p className="text-sm font-semibold text-blue-900 flex items-center gap-2">
+              <div className="bg-accent/10 border border-accent/20 rounded-lg p-4 mt-4">
+                <p className="text-sm font-semibold text-accent flex items-center gap-2">
                   <AlertTriangle className="w-5 h-5" />
                   Important Emergency Numbers
                 </p>
-                <ul className="text-sm text-blue-800 mt-2 space-y-1">
+                <ul className="text-sm text-accent/80 mt-2 space-y-1">
                   <li>RedDot Emergency: +65 9677 3465 (24/7)</li>
                   <li>PUB Emergency: 1800-2255-226</li>
                   <li>SCDF: 995</li>
