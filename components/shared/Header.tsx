@@ -19,9 +19,9 @@ export function Header() {
             <Image
               src="/reddot_emergency_plumbing_logo.jfif"
               alt="RedDot Emergency Plumbing Logo"
-              width={40}
-              height={40}
-              className="h-10 w-10 object-contain"
+              width={600}
+              height={600}
+              className="h-[600px] w-[600px] object-contain"
               priority
             />
             <div className="flex flex-col leading-none">
