@@ -14,8 +14,8 @@ export function Footer() {
               <Image
                 src="/reddot_emergency_plumbing_logo.jfif"
                 alt="RedDot Emergency Plumbing Logo"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 className="h-[300px] w-[300px] object-contain"
               />
               <div className="flex flex-col leading-none">
