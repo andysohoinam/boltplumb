@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
   description:
     'Contact RedDot Emergency for 24-hour emergency plumbing services in Singapore. WhatsApp +65 9677 3465 or call for fast response.',
-  alternates: { canonical: 'https://homeaspect.com.sg/contact' },
+  alternates: { canonical: 'https://www.reddotemergency.com/contact' },
   openGraph: {
     title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
     description: 'WhatsApp or call RedDot Emergency for 24-hour emergency plumbing. Fast response across Singapore.',
-    url: 'https://homeaspect.com.sg/contact',
+    url: 'https://www.reddotemergency.com/contact',
   },
 };
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
 
             {/* Phone */}
             <a
-              href="tel:+6596773465"
+              href="tel:+6582941906"
               className="group bg-card border border-border rounded-xl p-8 hover:border-primary/30 hover:shadow-lg transition-all duration-300"
             >
               <div className="h-14 w-14 bg-primary/10 rounded-xl flex items-center justify-center mb-5">
@@ -64,7 +64,7 @@ export default function ContactPage() {
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 For urgent emergencies, calling gets you immediate assistance. Available 24 hours, 7 days a week.
               </p>
-              <div className="text-primary font-semibold text-lg">+65 9677 3465</div>
+              <div className="text-primary font-semibold text-lg">+65 8294 1906</div>
             </a>
           </div>
 

@@ -47,7 +47,7 @@ export default function EmergencyPlumbingPage() {
                   WhatsApp Now
                 </Button>
               </a>
-              <a href="tel:+6596773465">
+              <a href="tel:+6582941906">
                 <Button size="sm" variant="outline" className="gap-2">
                   <Phone className="h-4 w-4" />
                   Call Now

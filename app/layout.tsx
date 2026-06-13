@@ -75,7 +75,7 @@ export default function RootLayout({
     description:
       '24-hour emergency plumbing services in Singapore. Fast response for pipe leaks, toilet chokes, water heater repair, and more.',
     url: 'https://homeaspect.com.sg',
-    telephone: '+6596773465',
+    telephone: '+6582941906',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Singapore',
@@ -95,7 +95,7 @@ export default function RootLayout({
     },
     priceRange: '$$',
     image: 'https://homeaspect.com.sg/og-image.jpg',
-    sameAs: ['https://wa.me/6596773465'],
+    sameAs: ['https://wa.me/6582941906'],
   };
 
   const emergencyServiceSchema = {
@@ -103,7 +103,7 @@ export default function RootLayout({
     '@type': 'EmergencyService',
     name: 'RedDot Emergency Emergency Plumbing',
     description: '24-hour emergency plumber in Singapore. Fast response within 30-60 minutes for burst pipes, toilet chokes, water leaks, and more.',
-    telephone: '+6596773465',
+    telephone: '+6582941906',
     url: 'https://homeaspect.com.sg/emergency-plumbing',
     areaServed: {
       '@type': 'Country',

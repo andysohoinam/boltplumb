@@ -43,7 +43,7 @@ export default function HomePage() {
                     WhatsApp Now
                   </Button>
                 </a>
-                <a href="tel:+6596773465">
+                <a href="tel:+6582941906">
                   <Button size="lg" variant="outline" className="gap-2 text-lg px-8 py-6 bg-white/10 border-white/20 text-white hover:bg-white/20 w-full sm:w-auto">
                     <Phone className="h-5 w-5" />
                     Call +65 9677 3465
@@ -193,7 +193,7 @@ export default function HomePage() {
                 Get Emergency Help Now
               </Button>
             </a>
-            <a href="tel:+6596773465">
+            <a href="tel:+6582941906">
               <Button size="lg" variant="outline" className="gap-2">
                 <Phone className="h-5 w-5" />
                 Call +65 9677 3465
