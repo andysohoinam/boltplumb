@@ -21,7 +21,7 @@ export function Header() {
               alt="RedDot Emergency Plumbing Logo"
               width={200}
               height={200}
-              className="h-[300px] w-[300px] object-contain"
+              className="h-[200px] w-[200px] object-contain"
               priority
             />
             <div className="flex flex-col leading-none">
