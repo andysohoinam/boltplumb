@@ -42,7 +42,7 @@ export function PlumbingAdviceContent() {
                 Document all damage immediately using your smartphone or camera. Take photos and videos of affected areas, damaged items, and water levels. This documentation will be crucial for insurance claims and for our technicians to assess the situation. Note the time the emergency began and any visible damage to plumbing fixtures or pipes.
               </p>
               <p>
-                Contact RedDot Emergency immediately at +65 9677 3465. Our emergency plumbers are available 24/7 to respond to your situation. Provide clear details about the nature of the emergency, the affected areas, and any damage you've observed. If you suspect a gas leak or smell gas from your water heater, also contact the PUB emergency hotline at 1800-2255-226 and SCDF at 995 if there's a risk of flooding affecting neighboring units.
+                Contact RedDot Emergency immediately at +65 8294 1906. Our emergency plumbers are available 24/7 to respond to your situation. Provide clear details about the nature of the emergency, the affected areas, and any damage you've observed. If you suspect a gas leak or smell gas from your water heater, also contact the PUB emergency hotline at 1800-2255-226 and SCDF at 995 if there's a risk of flooding affecting neighboring units.
               </p>
               <p>
                 For HDB residents, if flooding affects common areas or is spreading to neighboring units, contact your Town Council and PUB immediately. The PUB emergency number is 1800-2255-226. If the situation involves severe flooding or risk to life, contact SCDF (Singapore Civil Defence Force) at 995. These agencies can provide additional support and guidance for managing large-scale water emergencies.
@@ -53,7 +53,7 @@ export function PlumbingAdviceContent() {
                   Important Emergency Numbers
                 </p>
                 <ul className="text-sm text-accent/80 mt-2 space-y-1">
-                  <li>RedDot Emergency: +65 9677 3465 (24/7)</li>
+                  <li>RedDot Emergency: +65 8294 1906 (24/7)</li>
                   <li>PUB Emergency: 1800-2255-226</li>
                   <li>SCDF: 995</li>
                 </ul>
@@ -218,7 +218,7 @@ export function PlumbingAdviceContent() {
                 Not all plumbing issues constitute emergencies, but some situations require immediate professional attention to prevent catastrophic damage, safety hazards, or health risks. Understanding the difference between urgent situations and non-emergencies helps you respond appropriately and get the right help when you need it most. RedDot Emergency is available 24/7 for true emergencies, while non-emergency issues can often wait for regular business hours.
               </p>
               <p>
-                Active flooding is the most obvious emergency requiring immediate response. If water is actively pouring from burst pipes, overflowing fixtures, or leaking fixtures into living spaces, contact RedDot Emergency immediately at +65 9677 3465. Every minute of delay results in more water damage. While waiting for the plumber, shut off your main water valve and use towels to contain the water. If flooding is spreading to multiple units in an HDB building, also contact your Town Council and the PUB emergency number.
+                Active flooding is the most obvious emergency requiring immediate response. If water is actively pouring from burst pipes, overflowing fixtures, or leaking fixtures into living spaces, contact RedDot Emergency immediately at +65 8294 1906. Every minute of delay results in more water damage. While waiting for the plumber, shut off your main water valve and use towels to contain the water. If flooding is spreading to multiple units in an HDB building, also contact your Town Council and the PUB emergency number.
               </p>
               <p>
                 Burst pipes are true emergencies requiring immediate response. Burst pipes indicate catastrophic plumbing failure and can flood your home rapidly. Signs include sudden loss of water pressure combined with water spraying from walls or ceilings, or water dripping from ceiling areas where pipes run. If you suspect a burst pipe, shut off your main water immediately and call RedDot Emergency. Do not attempt to repair burst pipes yourself—professional equipment and expertise are essential for safe, proper repairs.

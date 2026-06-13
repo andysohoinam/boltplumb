@@ -38,7 +38,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
     provider: {
       '@type': 'LocalBusiness',
       name: 'RedDot Emergency',
-      telephone: '+6596773465',
+      telephone: '+6582941906',
       areaServed: { '@type': 'Country', name: 'Singapore' },
     },
     areaServed: { '@type': 'Country', name: 'Singapore' },
@@ -101,9 +101,9 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                     WhatsApp Us
                   </Button>
                 </a>
-                <a href="tel:+6596773465" className="block">
+                <a href="tel:+6582941906" className="block">
                   <Button variant="outline" className="w-full gap-2 bg-white/10 border-white/20 text-white hover:bg-white/20">
-                    Call +65 9677 3465
+                    Call +65 8294 1906
                   </Button>
                 </a>
               </div>
@@ -194,7 +194,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 WhatsApp Now
               </Button>
             </a>
-            <a href="tel:+6596773465">
+            <a href="tel:+6582941906">
               <Button variant="outline" className="gap-2">
                 Call Now
               </Button>

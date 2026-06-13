@@ -11,7 +11,7 @@ import { WHATSAPP_FULL_LINK } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
   description:
-    'Contact RedDot Emergency for 24-hour emergency plumbing services in Singapore. WhatsApp +65 9677 3465 or call for fast response.',
+    'Contact RedDot Emergency for 24-hour emergency plumbing services in Singapore. WhatsApp +65 8294 1906 or call for fast response.',
   alternates: { canonical: 'https://www.reddotemergency.com/contact' },
   openGraph: {
     title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
@@ -49,7 +49,7 @@ export default function ContactPage() {
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 The fastest way to reach us. Send a message with your plumbing issue and location, and we will respond promptly.
               </p>
-              <div className="text-accent font-semibold text-lg">+65 9677 3465</div>
+              <div className="text-accent font-semibold text-lg">+65 8294 1906</div>
             </a>
 
             {/* Phone */}

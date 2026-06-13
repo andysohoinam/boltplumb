@@ -46,7 +46,7 @@ export default function HomePage() {
                 <a href="tel:+6582941906">
                   <Button size="lg" variant="outline" className="gap-2 text-lg px-8 py-6 bg-white/10 border-white/20 text-white hover:bg-white/20 w-full sm:w-auto">
                     <Phone className="h-5 w-5" />
-                    Call +65 9677 3465
+                    Call +65 8294 1906
                   </Button>
                 </a>
               </div>
@@ -101,7 +101,7 @@ export default function HomePage() {
               { icon: Clock, title: 'Fast Emergency Response', desc: '30-60 minute average response time, 24 hours a day, 7 days a week' },
               { icon: Wrench, title: 'Residential Specialists', desc: 'HDB and condo plumbing experts with years of Singapore-specific experience' },
               { icon: Shield, title: 'Transparent Pricing', desc: 'Upfront quotes with no hidden fees. Know the cost before work begins' },
-              { icon: MessageCircle, title: 'WhatsApp Support', desc: 'Reach us instantly via WhatsApp at +65 9677 3465 for fast assistance' },
+              { icon: MessageCircle, title: 'WhatsApp Support', desc: 'Reach us instantly via WhatsApp at +65 8294 1906 for fast assistance' },
             ].map(({ icon: Icon, title, desc }) => (
               <div key={title} className="text-center">
                 <div className="h-12 w-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-3">
@@ -196,7 +196,7 @@ export default function HomePage() {
             <a href="tel:+6582941906">
               <Button size="lg" variant="outline" className="gap-2">
                 <Phone className="h-5 w-5" />
-                Call +65 9677 3465
+                Call +65 8294 1906
               </Button>
             </a>
           </div>

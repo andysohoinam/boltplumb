@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s | RedDot Emergency - Singapore Emergency Plumber',
   },
   description:
-    'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response for pipe leaks, toilet chokes, water heater repair, and more. WhatsApp us now at +65 9677 3465.',
+    'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response for pipe leaks, toilet chokes, water heater repair, and more. WhatsApp us now at +65 8294 1906.',
   keywords: [
     'emergency plumber singapore',
     '24 hour plumber singapore',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: 'RedDot Emergency',
     title: 'RedDot Emergency - Emergency Plumber Singapore | 24 Hour Plumbing Services',
     description:
-      '24-hour emergency plumbing services in Singapore. Fast response, transparent pricing. WhatsApp +65 9677 3465.',
+      '24-hour emergency plumbing services in Singapore. Fast response, transparent pricing. WhatsApp +65 8294 1906.',
   },
   twitter: {
     card: 'summary_large_image',

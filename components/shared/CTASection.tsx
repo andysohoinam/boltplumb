@@ -28,7 +28,7 @@ export function CTASection({
           <a href="tel:+6582941906">
             <Button variant="outline" className="gap-2 w-full sm:w-auto">
               <Phone className="h-4 w-4" />
-              Call +65 9677 3465
+              Call +65 8294 1906
             </Button>
           </a>
         </div>
@@ -55,7 +55,7 @@ export function CTASection({
           <a href="tel:+6582941906">
             <Button size="lg" variant="outline" className="gap-2 text-base px-8 bg-white/10 border-white/20 text-white hover:bg-white/20">
               <Phone className="h-5 w-5" />
-              Call +65 9677 3465
+              Call +65 8294 1906
             </Button>
           </a>
         </div>
@@ -77,7 +77,7 @@ export function CTASection({
         <a href="tel:+6582941906">
           <Button size="lg" variant="outline" className="gap-2 text-base px-8 bg-white/10 border-white/20 text-white hover:bg-white/20">
             <Phone className="h-5 w-5" />
-            Call +65 9677 3465
+            Call +65 8294 1906
           </Button>
         </a>
       </div>

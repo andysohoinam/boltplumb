@@ -49,7 +49,7 @@ export function Header() {
 
           {/* Desktop CTAs */}
           <div className="hidden lg:flex items-center gap-3">
-            <a href="tel:+6596773465">
+            <a href="tel:+6582941906">
               <Button variant="outline" size="sm" className="gap-2">
                 <Phone className="h-4 w-4" />
                 Call Now
@@ -90,7 +90,7 @@ export function Header() {
             ))}
           </nav>
           <div className="px-4 pb-4 flex gap-3">
-            <a href="tel:+6596773465" className="flex-1">
+            <a href="tel:+6582941906" className="flex-1">
               <Button variant="outline" className="w-full gap-2">
                 <Phone className="h-4 w-4" />
                 Call Now

@@ -1,9 +1,9 @@
-export const WHATSAPP_NUMBER = '+6596773465';
-export const WHATSAPP_LINK = 'https://wa.me/6596773465';
+export const WHATSAPP_NUMBER = '+6582941906';
+export const WHATSAPP_LINK = 'https://wa.me/6582941906';
 export const WHATSAPP_PREFILL = 'Hi RedDot Emergency, I need emergency plumbing assistance.';
-export const WHATSAPP_FULL_LINK = `https://wa.me/6596773465?text=${encodeURIComponent('Hi RedDot Emergency, I need emergency plumbing assistance.')}`;
-export const PHONE_NUMBER = '+65 9677 3465';
-export const PHONE_LINK = 'tel:+6596773465';
+export const WHATSAPP_FULL_LINK = `https://wa.me/6582941906?text=${encodeURIComponent('Hi RedDot Emergency, I need emergency plumbing assistance.')}`;
+export const PHONE_NUMBER = '+65 8294 1906';
+export const PHONE_LINK = 'tel:+6582941906';
 export const COMPANY_NAME = 'RedDot Emergency';
 export const SITE_URL = 'https://homeaspect.com.sg';
 

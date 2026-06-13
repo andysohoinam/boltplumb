@@ -41,7 +41,7 @@ export function WhatsAppFloat() {
           WhatsApp Now
         </a>
         <a
-          href="tel:+6596773465"
+          href="tel:+6582941906"
           className="flex-1 bg-primary text-white rounded-lg py-3 px-4 flex items-center justify-center gap-2 font-semibold text-sm shadow-md"
         >
           <span>Call Now</span>

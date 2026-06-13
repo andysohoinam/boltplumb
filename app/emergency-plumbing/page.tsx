@@ -12,7 +12,7 @@ import { WHATSAPP_FULL_LINK, EMERGENCY_SERVICES } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Emergency Plumber Singapore - 24 Hour Fast Response',
   description:
-    'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response within 30-60 minutes for burst pipes, water leaks, toilet chokes, and more. WhatsApp +65 9677 3465 now.',
+    'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response within 30-60 minutes for burst pipes, water leaks, toilet chokes, and more. WhatsApp +65 8294 1906 now.',
   alternates: { canonical: 'https://homeaspect.com.sg/emergency-plumbing' },
   openGraph: {
     title: 'Emergency Plumber Singapore - 24 Hour Fast Response | RedDot Emergency',
