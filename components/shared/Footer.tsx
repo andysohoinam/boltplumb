@@ -16,7 +16,7 @@ export function Footer() {
                 alt="RedDot Emergency Plumbing Logo"
                 width={200}
                 height={200}
-                className="h-[300px] w-[300px] object-contain"
+                className="h-[200px] w-[200px] object-contain"
               />
               <div className="flex flex-col leading-none">
                 <span className="font-bold text-lg text-white tracking-tight">RedDot</span>
