@@ -21,21 +21,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const servicePages = SERVICES.map((service) => ({
     url: `${SITE_URL}/services/${service.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date('2026-06-13'),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
 
   const locationPages = LOCATION_SLUGS.map((slug) => ({
     url: `${SITE_URL}/${slug}`,
-    lastModified: new Date(),
+    lastModified: new Date('2026-06-13'),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
 
   const blogPages = blogArticleSlugs.map((slug) => ({
     url: `${SITE_URL}/blog/${slug}`,
-    lastModified: new Date(),
+    lastModified: new Date('2026-06-13'),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }));
