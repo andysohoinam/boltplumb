@@ -2,8 +2,9 @@ import type { MetadataRoute } from 'next';
 import { SERVICES, LOCATION_SLUGS } from '@/lib/constants';
 import { blogArticleSlugs } from '@/lib/blogData';
 
-const SITE_URL = 'https://homeaspect.com.sg';
-
+const SITE_URL = 'https://reddotemergency.com';
+export const dynamic = 'force-static';
+export const revalidate = false;
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     { url: SITE_URL, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 1.0 },
