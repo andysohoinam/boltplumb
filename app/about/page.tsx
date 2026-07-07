@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Header } from '@/components/shared/Header';
 import { Footer } from '@/components/shared/Footer';
 import { WhatsAppFloat } from '@/components/shared/WhatsAppFloat';
@@ -229,13 +230,13 @@ export default function AboutPage() {
               { label: 'FAQ', href: '/faq' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="bg-card border border-border rounded-lg px-4 py-2 text-sm text-foreground hover:border-primary/20 hover:shadow-sm transition-all duration-200"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
