@@ -224,7 +224,7 @@ export default function AboutPage() {
           <div className="flex flex-wrap gap-3">
             {[
               { label: 'Our Services', href: '/services' },
-              { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
+              { label: 'Emergency Plumbing', href: '/emergency' },
               { label: 'Why Choose Us', href: '/why-homeaspect' },
               { label: 'FAQ', href: '/faq' },
               { label: 'Contact Us', href: '/contact' },

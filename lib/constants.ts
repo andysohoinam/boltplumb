@@ -253,9 +253,9 @@ export const FAQS = [
 export const NAV_LINKS = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
-  { href: '/emergency-plumbing', label: 'Emergency' },
+  { href: '/emergency', label: 'Emergency' },
   { href: '/services', label: 'Services' },
-  { href: '/recent-projects', label: 'Projects' },
+  { href: '/projects', label: 'Projects' },
   { href: '/plumbing-advice', label: 'Advice' },
   { href: '/faq', label: 'FAQ' },
   { href: '/contact', label: 'Contact' },

@@ -289,7 +289,7 @@ export function PlumbingAdviceContent() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 { href: '/services', label: 'Our Services', description: 'Explore all plumbing services we offer' },
-                { href: '/emergency-plumbing', label: 'Emergency Plumbing', description: '24/7 emergency response available' },
+                { href: '/emergency', label: 'Emergency Plumbing', description: '24/7 emergency response available' },
                 { href: '/faq', label: 'FAQ', description: 'Answers to common questions' },
                 { href: '/contact', label: 'Contact Us', description: 'Get in touch with our team' },
                 { href: '/blog', label: 'Blog', description: 'Latest plumbing tips and news' }

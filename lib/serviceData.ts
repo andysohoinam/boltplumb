@@ -208,7 +208,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     delayRisks: 'Delaying toilet choke repair risks escalating the problem into a complete blockage that renders your toilet completely unusable and may cause sewage to back up into your bathroom, shower, and kitchen drains. This backup can create severe health hazards, foul odors throughout your home, and potential damage to your floor and walls if water overflows. In HDB blocks and condos, a complete blockage in the main soil pipe can affect multiple units, leading to complaints from neighbors and potential disputes. The longer you delay, the more difficult and expensive the clearing becomes, as the blockage hardens and extends deeper into the pipe system. Sewage backup also creates unsanitary conditions that pose risks to your family\'s health, potentially causing infections and illness. Emergency calls outside business hours incur additional charges, so addressing the problem quickly during normal hours is more cost-effective.',
     internalLinks: [
-      { label: 'Emergency Plumbing Service', href: '/emergency-plumbing' },
+      { label: 'Emergency Plumbing Service', href: '/emergency' },
       { label: 'Frequently Asked Questions', href: '/faq' },
       { label: 'Contact Us Now', href: '/contact' },
       { label: 'Sink Choke Repair', href: '/services/sink-choke-repair' },
@@ -368,7 +368,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     delayRisks: 'Delaying pipe leak repair risks catastrophic water damage to your home\'s structure, potentially requiring expensive repairs costing tens of thousands of dollars. Continuous water infiltration rots wood framing, weakens concrete, destroys electrical systems, and creates conditions for toxic mold growth that poses severe health risks to your family. In HDB units and condos, water leaking into neighboring units creates liability issues and neighbor disputes. Hidden leaks cause continuous waste of water—a significant leak can waste 1000+ liters daily—inflating your water bills by hundreds of dollars monthly while you remain unaware. The longer a leak persists, the more the damaged area spreads, making eventual repairs more invasive and expensive. Mold colonies develop rapidly in Singapore\'s humid climate, contaminating air quality and causing respiratory problems. Emergency repairs needed after extended delay cost significantly more due to additional structural restoration and mold remediation.',
     internalLinks: [
-      { label: 'Emergency Plumbing Service', href: '/emergency-plumbing' },
+      { label: 'Emergency Plumbing Service', href: '/emergency' },
       { label: 'Frequently Asked Questions', href: '/faq' },
       { label: 'Contact Us for Emergency Response', href: '/contact' },
       { label: 'Water Heater Repair', href: '/services/water-heater-repair' },
@@ -528,7 +528,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     delayRisks: 'Delaying water heater repair leaves you without hot water for extended periods, affecting hygiene, comfort, and daily routines. A heater starting to fail often fails completely within days or weeks—early repair prevents sudden loss of hot water. A leaking heater eventually floods water into surrounding areas, damaging flooring, electrical systems, and adjacent rooms, creating repair costs far exceeding the heater replacement cost. A failed pressure relief valve creates dangerous pressure buildup that can cause heater explosion or violent failure, posing genuine safety hazards. Rusty water from a corroding tank contaminates your entire plumbing system, requiring eventual water line cleaning. For HDB units, burst water heaters can damage the unit below, creating liability and neighbor disputes. The longer you delay, the more urgent the eventual repair becomes, often requiring after-hours emergency service that costs significantly more than daytime repair.',
     internalLinks: [
-      { label: 'Emergency Plumbing Service', href: '/emergency-plumbing' },
+      { label: 'Emergency Plumbing Service', href: '/emergency' },
       { label: 'Frequently Asked Questions', href: '/faq' },
       { label: 'Contact Us Now', href: '/contact' },
       { label: 'Pipe Leak Repair', href: '/services/pipe-leak-repair' },
@@ -688,7 +688,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     delayRisks: 'Delaying sink choke repair allows the blockage to progress from slow drainage to complete blockage, rendering your sink unusable. Continued water backup can overflow the sink, damaging cabinets, flooring, and electrical outlets beneath the sink. In HDB units, water damage to lower floors creates liability and neighbor disputes. Unpleasant drain odors intensify and spread throughout your kitchen or bathroom as bacterial growth increases. In kitchen sinks, grease blockages become harder and more difficult to clear mechanically the longer they persist. Water pooling under sinks creates mold growth in cabinet spaces, contaminating food storage areas and creating health hazards. The longer you delay, the more aggressive clearing methods may be required, increasing the risk of pipe damage during repair.',
     internalLinks: [
-      { label: 'Emergency Plumbing Service', href: '/emergency-plumbing' },
+      { label: 'Emergency Plumbing Service', href: '/emergency' },
       { label: 'Frequently Asked Questions', href: '/faq' },
       { label: 'Contact Us Now', href: '/contact' },
       { label: 'Toilet Bowl Choke Repair', href: '/services/toilet-bowl-choke-repair' },
@@ -848,7 +848,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     delayRisks: 'Delaying floor trap choke clearing allows water to accumulate on bathroom and kitchen floors, creating dangerous slip hazards that risk injuries, especially for children and elderly people. Continued water pooling damages flooring materials—wood warps, laminate separates, and tiles crack. Water infiltrating the floor structure causes structural rot and decay. In HDB units, water leaking through the floor damages the unit below, creating serious neighbor disputes and liability issues. Unpleasant odors intensify as decomposing matter accumulates and bacterial colonies expand. Electrical safety hazards develop if standing water contacts outlets, switches, or appliances. Mold growth in floor voids spreads to walls and creates health hazards, particularly respiratory problems. The longer you delay, the more extensive and expensive the eventual restoration becomes.',
     internalLinks: [
-      { label: 'Emergency Plumbing Service', href: '/emergency-plumbing' },
+      { label: 'Emergency Plumbing Service', href: '/emergency' },
       { label: 'Frequently Asked Questions', href: '/faq' },
       { label: 'Contact Us Now', href: '/contact' },
       { label: 'Sink Choke Repair', href: '/services/sink-choke-repair' },
@@ -1008,7 +1008,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     delayRisks: 'Delaying tap repair allows the constant dripping to waste increasing amounts of water and inflate your water bill continuously. What costs $20-30 to repair now will cost you hundreds of dollars in wasted water over months. A stiff tap handle that cannot fully close will eventually seize completely, preventing water shut-off for that fixture. Water leaking under the sink will gradually damage cabinet materials, causing rot and mold growth that requires expensive restoration. In HDB units, a tap leaking through the floor affects the unit below, creating serious neighbor disputes and potential liability. The longer you delay, the more extensive the damage and the costlier the eventual repair or replacement becomes.',
     internalLinks: [
-      { label: 'Emergency Plumbing Service', href: '/emergency-plumbing' },
+      { label: 'Emergency Plumbing Service', href: '/emergency' },
       { label: 'Frequently Asked Questions', href: '/faq' },
       { label: 'Contact Us Now', href: '/contact' },
       { label: 'Pipe Leak Repair', href: '/services/pipe-leak-repair' },
@@ -1168,7 +1168,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     delayRisks: 'Delaying basin replacement when cracks are present allows water to continue leaking through the cracks, gradually saturating cabinet materials and causing rot. Structural deterioration accelerates—wooden cabinets can become weakened and unusable within months if water damage continues. Water continuously seeping from a leaking basin creates ideal conditions for extensive mold growth in cabinet spaces, requiring professional mold remediation. In HDB units, water seeping through the floor damages the unit below, creating serious neighbor disputes and liability issues. Stains and discoloration worsen over time, making the basin increasingly difficult to keep clean. An unstable basin that has come loose can fall or shift unexpectedly, creating safety hazards. The longer you delay replacement, the more likely you are that additional water damage repair becomes necessary beyond just basin replacement.',
     internalLinks: [
-      { label: 'Emergency Plumbing Service', href: '/emergency-plumbing' },
+      { label: 'Emergency Plumbing Service', href: '/emergency' },
       { label: 'Frequently Asked Questions', href: '/faq' },
       { label: 'Contact Us Now', href: '/contact' },
       { label: 'Tap Repair & Replacement', href: '/services/tap-repair' },

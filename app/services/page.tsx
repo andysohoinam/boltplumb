@@ -111,7 +111,7 @@ export default function ServicesPage() {
           <h3 className="font-semibold text-foreground mb-4">Helpful Resources</h3>
           <div className="flex flex-wrap gap-3">
             {[
-              { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
+              { label: 'Emergency Plumbing', href: '/emergency' },
               { label: 'Why Choose RedDot Emergency', href: '/why-homeaspect' },
               { label: 'FAQ', href: '/faq' },
               { label: 'Contact Us', href: '/contact' },

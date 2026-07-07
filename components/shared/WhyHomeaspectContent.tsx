@@ -623,7 +623,7 @@ export function WhyHomeaspectContent() {
               </p>
             </Link>
             <Link
-              href="/emergency-plumbing"
+              href="/emergency"
               className="group bg-card border border-border rounded-xl p-6 hover:border-primary hover:shadow-md transition-all"
             >
               <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors mb-2">

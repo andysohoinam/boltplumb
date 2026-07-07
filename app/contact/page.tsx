@@ -203,7 +203,7 @@ export default function ContactPage() {
           <h3 className="font-semibold text-foreground mb-4">Related Pages</h3>
           <div className="flex flex-wrap gap-3">
             {[
-              { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
+              { label: 'Emergency Plumbing', href: '/emergency' },
               { label: 'Our Services', href: '/services' },
               { label: 'Why Choose RedDot Emergency', href: '/why-homeaspect' },
               { label: 'FAQ', href: '/faq' },

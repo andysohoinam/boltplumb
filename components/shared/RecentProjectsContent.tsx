@@ -160,7 +160,7 @@ export default function RecentProjectsContent() {
                 Our Services
               </Button>
             </Link>
-            <Link href="/emergency-plumbing">
+            <Link href="/emergency">
               <Button variant="outline" className="w-full justify-start">
                 Emergency Plumbing
               </Button>

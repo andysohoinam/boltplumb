@@ -61,7 +61,7 @@ export default function FAQPage() {
           <h3 className="font-semibold text-foreground mb-4">Still Need Help?</h3>
           <div className="flex flex-wrap gap-3">
             {[
-              { label: 'Emergency Plumbing', href: '/emergency-plumbing' },
+              { label: 'Emergency Plumbing', href: '/emergency' },
               { label: 'Our Services', href: '/services' },
               { label: 'Why Choose Us', href: '/why-homeaspect' },
               { label: 'Contact Us', href: '/contact' },

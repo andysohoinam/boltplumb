@@ -104,7 +104,7 @@ export default function RootLayout({
     name: 'RedDot Emergency Emergency Plumbing',
     description: '24-hour emergency plumber in Singapore. Fast response within 30-60 minutes for burst pipes, toilet chokes, water leaks, and more.',
     telephone: '+6582941906',
-    url: 'https://homeaspect.com.sg/emergency-plumbing',
+    url: 'https://homeaspect.com.sg/emergency',
     areaServed: {
       '@type': 'Country',
       name: 'Singapore',

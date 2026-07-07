@@ -65,7 +65,7 @@ export const locationDetails: Record<string, LocationDetail> = {
       }
     ],
     internalLinks: [
-      { label: "Emergency Plumbing Services", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Services", href: "/emergency" },
       { label: "Burst Pipe Repair", href: "/services/burst-pipe-repair" },
       { label: "24-Hour Emergency Support", href: "/emergency" },
       { label: "Contact Us Now", href: "/contact" },
@@ -124,7 +124,7 @@ export const locationDetails: Record<string, LocationDetail> = {
       }
     ],
     internalLinks: [
-      { label: "Emergency Response Service", href: "/services/emergency-plumbing" },
+      { label: "Emergency Response Service", href: "/emergency" },
       { label: "Leak Detection & Repair", href: "/services/leak-detection" },
       { label: "Pipe Replacement Services", href: "/services/pipe-replacement" },
       { label: "Get Emergency Help", href: "/emergency" },
@@ -183,7 +183,7 @@ export const locationDetails: Record<string, LocationDetail> = {
       }
     ],
     internalLinks: [
-      { label: "24-Hour Emergency Plumbing", href: "/services/emergency-plumbing" },
+      { label: "24-Hour Emergency Plumbing", href: "/emergency" },
       { label: "Water Pressure Solutions", href: "/services/pressure-regulation" },
       { label: "Drain & Clog Removal", href: "/services/drain-cleaning" },
       { label: "Call Now for Help", href: "/emergency" },
@@ -243,7 +243,7 @@ export const locationDetails: Record<string, LocationDetail> = {
     ],
     internalLinks: [
       { label: "Water Heater Services", href: "/services/water-heater-repair" },
-      { label: "Emergency Plumbing Support", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Support", href: "/emergency" },
       { label: "Modern Fixture Repairs", href: "/services/fixture-repair" },
       { label: "Request Emergency Help", href: "/emergency" },
       { label: "Browse All Services", href: "/services" }
@@ -302,7 +302,7 @@ export const locationDetails: Record<string, LocationDetail> = {
     ],
     internalLinks: [
       { label: "Water Heater Replacement", href: "/services/water-heater-repair" },
-      { label: "24/7 Emergency Service", href: "/services/emergency-plumbing" },
+      { label: "24/7 Emergency Service", href: "/emergency" },
       { label: "Leak Detection", href: "/services/leak-detection" },
       { label: "Emergency Contact", href: "/emergency" },
       { label: "All Services", href: "/services" }
@@ -361,7 +361,7 @@ export const locationDetails: Record<string, LocationDetail> = {
     ],
     internalLinks: [
       { label: "New BTO Plumbing Services", href: "/services" },
-      { label: "Emergency Plumbing Response", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Response", href: "/emergency" },
       { label: "Smart System Support", href: "/services" },
       { label: "Call Now", href: "/emergency" },
       { label: "Maintenance Plans", href: "/services" }
@@ -419,7 +419,7 @@ export const locationDetails: Record<string, LocationDetail> = {
       }
     ],
     internalLinks: [
-      { label: "Emergency Plumbing", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing", href: "/emergency" },
       { label: "Pipe Replacement Services", href: "/services/pipe-replacement" },
       { label: "Water Heater Repair", href: "/services/water-heater-repair" },
       { label: "Get Help Now", href: "/emergency" },
@@ -479,7 +479,7 @@ export const locationDetails: Record<string, LocationDetail> = {
     ],
     internalLinks: [
       { label: "Pipe Replacement Services", href: "/services/pipe-replacement" },
-      { label: "Urgent Emergency Response", href: "/services/emergency-plumbing" },
+      { label: "Urgent Emergency Response", href: "/emergency" },
       { label: "Leak Detection & Repair", href: "/services/leak-detection" },
       { label: "Emergency Support Line", href: "/emergency" },
       { label: "View All Services", href: "/services" }
@@ -538,7 +538,7 @@ export const locationDetails: Record<string, LocationDetail> = {
     ],
     internalLinks: [
       { label: "Complete Pipe Replacement", href: "/services/pipe-replacement" },
-      { label: "Emergency Response Service", href: "/services/emergency-plumbing" },
+      { label: "Emergency Response Service", href: "/emergency" },
       { label: "Pressure & Flow Restoration", href: "/services/pressure-regulation" },
       { label: "Call Emergency Line", href: "/emergency" },
       { label: "Full Service Menu", href: "/services" }
@@ -596,7 +596,7 @@ export const locationDetails: Record<string, LocationDetail> = {
       }
     ],
     internalLinks: [
-      { label: "24-Hour Emergency Plumbing", href: "/services/emergency-plumbing" },
+      { label: "24-Hour Emergency Plumbing", href: "/emergency" },
       { label: "Pipe Repair & Replacement", href: "/services/pipe-replacement" },
       { label: "Water Quality Solutions", href: "/services/leak-detection" },
       { label: "Get Emergency Help", href: "/emergency" },

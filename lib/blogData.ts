@@ -79,7 +79,7 @@ export const blogArticles: Record<string, BlogArticle> = {
       }
     ],
     internalLinks: [
-      { label: "Emergency Plumbing Services", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Services", href: "/emergency" },
       { label: "Emergency Plumbing Checklist", href: "/blog/emergency-plumbing-checklist" },
       { label: "Contact Our Plumbers", href: "/contact" },
       { label: "Plumbing Maintenance Tips", href: "/blog/plumbing-maintenance-tips" }
@@ -154,7 +154,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     ],
     internalLinks: [
       { label: "When to Call an Emergency Plumber", href: "/blog/when-to-call-emergency-plumber" },
-      { label: "Emergency Plumbing Services", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Services", href: "/emergency" },
       { label: "Drain Blockage Prevention Tips", href: "/blog/how-to-prevent-drain-blockages" },
       { label: "Contact Emergency Plumbing", href: "/contact" }
     ]
@@ -228,7 +228,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     ],
     internalLinks: [
       { label: "Signs of Hidden Pipe Leaks", href: "/blog/signs-of-hidden-pipe-leaks" },
-      { label: "Emergency Plumbing Services", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Services", href: "/emergency" },
       { label: "Burst Pipe Emergency Guide", href: "/blog/burst-pipe-emergency-guide" },
       { label: "Call Us Now for Emergency Help", href: "/contact" }
     ]
@@ -452,7 +452,7 @@ export const blogArticles: Record<string, BlogArticle> = {
       { label: "HDB Plumbing Problems and Solutions", href: "/blog/hdb-plumbing-problems" },
       { label: "Plumbing Maintenance Tips for Homes", href: "/blog/plumbing-maintenance-tips" },
       { label: "How to Prevent Drain Blockages", href: "/blog/how-to-prevent-drain-blockages" },
-      { label: "Emergency Plumbing Services", href: "/services/emergency-plumbing" }
+      { label: "Emergency Plumbing Services", href: "/emergency" }
     ]
   },
 
@@ -599,7 +599,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     internalLinks: [
       { label: "Emergency Plumbing Checklist", href: "/blog/emergency-plumbing-checklist" },
       { label: "Signs of Hidden Pipe Leaks", href: "/blog/signs-of-hidden-pipe-leaks" },
-      { label: "Emergency Plumbing Services", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Services", href: "/emergency" },
       { label: "Call Emergency Plumber Now", href: "/contact" }
     ]
   },
@@ -673,7 +673,7 @@ export const blogArticles: Record<string, BlogArticle> = {
     internalLinks: [
       { label: "Emergency Plumbing Checklist", href: "/blog/emergency-plumbing-checklist" },
       { label: "Burst Pipe Emergency Guide", href: "/blog/burst-pipe-emergency-guide" },
-      { label: "Emergency Plumbing Services", href: "/services/emergency-plumbing" },
+      { label: "Emergency Plumbing Services", href: "/emergency" },
       { label: "Contact Emergency Services", href: "/contact" }
     ]
   },
