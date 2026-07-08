@@ -7,11 +7,11 @@ const location = getLocationDetail('plumber-punggol')!;
 export const metadata: Metadata = {
   title: location.metaTitle,
   description: location.metaDescription,
-  alternates: { canonical: 'https://homeaspect.com.sg/plumber-punggol' },
+  alternates: { canonical: 'https://reddotemergency.com/plumber-punggol' },
   openGraph: {
     title: location.metaTitle,
     description: location.metaDescription,
-    url: 'https://homeaspect.com.sg/plumber-punggol',
+    url: 'https://reddotemergency.com/plumber-punggol',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

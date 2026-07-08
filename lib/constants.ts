@@ -5,7 +5,7 @@ export const WHATSAPP_FULL_LINK = `https://wa.me/6582941906?text=${encodeURIComp
 export const PHONE_NUMBER = '+65 8294 1906';
 export const PHONE_LINK = 'tel:+6582941906';
 export const COMPANY_NAME = 'RedDot Emergency';
-export const SITE_URL = 'https://homeaspect.com.sg';
+export const SITE_URL = 'https://reddotemergency.com';
 
 export const SERVICES = [
   {

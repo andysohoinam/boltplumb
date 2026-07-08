@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   title: 'Services | RedDot Emergency',
   description:
     'RedDot Emergency provides comprehensive plumbing services in Singapore including toilet choke repair, pipe leak repair, water heater repair, sink unblocking, and more. WhatsApp +65 8294 1906.',
-  alternates: { canonical: 'https://homeaspect.com.sg/services' },
+  alternates: { canonical: 'https://reddotemergency.com/services' },
   openGraph: {
     title: 'Services | RedDot Emergency',
     description: 'Comprehensive residential plumbing services across Singapore. Toilet chokes, pipe leaks, water heaters, and more. WhatsApp +65 8294 1906.',
-    url: 'https://homeaspect.com.sg/services',
+    url: 'https://reddotemergency.com/services',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

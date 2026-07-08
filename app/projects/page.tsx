@@ -4,11 +4,11 @@ import RecentProjectsContent from '@/components/shared/RecentProjectsContent';
 export const metadata: Metadata = {
   title: 'Projects | RedDot Emergency',
   description: 'Explore real case studies of emergency plumbing projects solved by RedDot Emergency in Singapore. See our proven track record and customer outcomes.',
-  alternates: { canonical: 'https://homeaspect.com.sg/projects' },
+  alternates: { canonical: 'https://reddotemergency.com/projects' },
   openGraph: {
     title: 'Projects | RedDot Emergency',
     description: 'Real plumbing case studies and solutions from RedDot Emergency. See how we handle emergency plumbing issues across Singapore.',
-    url: 'https://homeaspect.com.sg/projects',
+    url: 'https://reddotemergency.com/projects',
     type: 'website',
     images: [
       {

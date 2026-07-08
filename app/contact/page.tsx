@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   title: 'Contact | RedDot Emergency',
   description:
     'Contact RedDot Emergency for 24-hour emergency plumbing services in Singapore. WhatsApp +65 8294 1906 or call for fast response.',
-  alternates: { canonical: 'https://homeaspect.com.sg/contact' },
+  alternates: { canonical: 'https://reddotemergency.com/contact' },
   openGraph: {
     title: 'Contact | RedDot Emergency',
     description: 'WhatsApp or call RedDot Emergency for 24-hour emergency plumbing. Fast response across Singapore.',
-    url: 'https://homeaspect.com.sg/contact',
+    url: 'https://reddotemergency.com/contact',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

@@ -8,11 +8,11 @@ const article = getBlogArticle(SLUG)!;
 export const metadata: Metadata = {
   title: article.metaTitle,
   description: article.metaDescription,
-  alternates: { canonical: `https://homeaspect.com.sg/blog/${SLUG}` },
+  alternates: { canonical: `https://reddotemergency.com/blog/${SLUG}` },
   openGraph: {
     title: article.metaTitle,
     description: article.metaDescription,
-    url: `https://homeaspect.com.sg/blog/${SLUG}`,
+    url: `https://reddotemergency.com/blog/${SLUG}`,
     type: 'article',
     images: [
       {

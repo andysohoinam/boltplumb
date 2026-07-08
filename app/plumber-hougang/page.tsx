@@ -7,11 +7,11 @@ const location = getLocationDetail('plumber-hougang')!;
 export const metadata: Metadata = {
   title: location.metaTitle,
   description: location.metaDescription,
-  alternates: { canonical: 'https://homeaspect.com.sg/plumber-hougang' },
+  alternates: { canonical: 'https://reddotemergency.com/plumber-hougang' },
   openGraph: {
     title: location.metaTitle,
     description: location.metaDescription,
-    url: 'https://homeaspect.com.sg/plumber-hougang',
+    url: 'https://reddotemergency.com/plumber-hougang',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

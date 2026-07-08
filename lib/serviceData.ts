@@ -1188,11 +1188,11 @@ export function generateServiceMetadata(slug: string): Metadata {
   return {
     title: service.metaTitle,
     description: service.metaDescription,
-    alternates: { canonical: `https://homeaspect.com.sg/services/${slug}` },
+    alternates: { canonical: `https://reddotemergency.com/services/${slug}` },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `https://homeaspect.com.sg/services/${slug}`,
+      url: `https://reddotemergency.com/services/${slug}`,
       images: [
         {
           url: '/reddot_emergency_plumbing_logo.jfif',

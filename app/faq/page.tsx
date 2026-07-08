@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   title: 'FAQ | RedDot Emergency',
   description:
     'Frequently asked questions about RedDot Emergency emergency plumbing services in Singapore. Response times, pricing, HDB services, service areas, and more.',
-  alternates: { canonical: 'https://homeaspect.com.sg/faq' },
+  alternates: { canonical: 'https://reddotemergency.com/faq' },
   openGraph: {
     title: 'FAQ | RedDot Emergency',
     description: 'Common questions about emergency plumbing in Singapore answered. Response times, pricing, HDB and condo services.',
-    url: 'https://homeaspect.com.sg/faq',
+    url: 'https://reddotemergency.com/faq',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

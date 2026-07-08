@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   title: 'Emergency Plumbing | RedDot Emergency',
   description:
     'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response within 30-60 minutes for burst pipes, water leaks, toilet chokes, and more. WhatsApp +65 8294 1906 now.',
-  alternates: { canonical: 'https://homeaspect.com.sg/emergency' },
+  alternates: { canonical: 'https://reddotemergency.com/emergency' },
   openGraph: {
     title: 'Emergency Plumbing | RedDot Emergency',
     description: '24-hour emergency plumbing in Singapore. 30-60 min response for burst pipes, water leaks, toilet chokes. WhatsApp +65 8294 1906.',
-    url: 'https://homeaspect.com.sg/emergency',
+    url: 'https://reddotemergency.com/emergency',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

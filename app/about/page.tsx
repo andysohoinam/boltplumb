@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   title: 'About | RedDot Emergency',
   description:
     'Learn about RedDot Emergency, Singapore&apos;s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing, and fast response across all areas.',
-  alternates: { canonical: 'https://homeaspect.com.sg/about' },
+  alternates: { canonical: 'https://reddotemergency.com/about' },
   openGraph: {
     title: 'About | RedDot Emergency',
     description: 'Singapore&apos;s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing.',
-    url: 'https://homeaspect.com.sg/about',
+    url: 'https://reddotemergency.com/about',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

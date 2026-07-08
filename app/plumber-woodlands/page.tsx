@@ -7,11 +7,11 @@ const location = getLocationDetail('plumber-woodlands')!;
 export const metadata: Metadata = {
   title: location.metaTitle,
   description: location.metaDescription,
-  alternates: { canonical: 'https://homeaspect.com.sg/plumber-woodlands' },
+  alternates: { canonical: 'https://reddotemergency.com/plumber-woodlands' },
   openGraph: {
     title: location.metaTitle,
     description: location.metaDescription,
-    url: 'https://homeaspect.com.sg/plumber-woodlands',
+    url: 'https://reddotemergency.com/plumber-woodlands',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',

@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://homeaspect.com.sg'),
+  metadataBase: new URL('https://reddotemergency.com'),
   title: {
     default: 'Home | RedDot Emergency',
     template: '%s | RedDot Emergency',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_SG',
-    url: 'https://homeaspect.com.sg',
+    url: 'https://reddotemergency.com',
     siteName: 'RedDot Emergency',
     title: 'Home | RedDot Emergency',
     description:
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://homeaspect.com.sg',
+    canonical: 'https://reddotemergency.com',
   },
 };
 
@@ -82,7 +82,7 @@ export default function RootLayout({
     name: 'RedDot Emergency',
     description:
       '24-hour emergency plumbing services in Singapore. Fast response for pipe leaks, toilet chokes, water heater repair, and more.',
-    url: 'https://homeaspect.com.sg',
+    url: 'https://reddotemergency.com',
     telephone: '+6582941906',
     address: {
       '@type': 'PostalAddress',
@@ -102,7 +102,7 @@ export default function RootLayout({
       closes: '23:59',
     },
     priceRange: '$$',
-    image: 'https://homeaspect.com.sg/reddot_emergency_plumbing_logo.jfif',
+    image: 'https://reddotemergency.com/reddot_emergency_plumbing_logo.jfif',
     sameAs: ['https://wa.me/6582941906'],
   };
 
@@ -112,7 +112,7 @@ export default function RootLayout({
     name: 'RedDot Emergency Emergency Plumbing',
     description: '24-hour emergency plumber in Singapore. Fast response within 30-60 minutes for burst pipes, toilet chokes, water leaks, and more.',
     telephone: '+6582941906',
-    url: 'https://homeaspect.com.sg/emergency',
+    url: 'https://reddotemergency.com/emergency',
     areaServed: {
       '@type': 'Country',
       name: 'Singapore',

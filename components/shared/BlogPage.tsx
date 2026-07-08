@@ -33,7 +33,7 @@ export function BlogPage({ article }: BlogPageProps) {
     description: article.metaDescription,
     datePublished: article.publishedDate,
     author: { '@type': 'Organization', name: 'RedDot Emergency' },
-    publisher: { '@type': 'Organization', name: 'RedDot Emergency', url: 'https://homeaspect.com.sg' },
+    publisher: { '@type': 'Organization', name: 'RedDot Emergency', url: 'https://reddotemergency.com' },
   };
 
   return (

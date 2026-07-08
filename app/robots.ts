@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://homeaspect.com.sg/sitemap.xml',
+    sitemap: 'https://reddotemergency.com/sitemap.xml',
   };
 }

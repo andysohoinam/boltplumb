@@ -10,11 +10,11 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Blog | RedDot Emergency',
   description: 'Expert plumbing tips, guides, and maintenance advice for Singapore homeowners. Learn about pipe leaks, toilet chokes, water heaters, and HDB plumbing.',
-  alternates: { canonical: 'https://homeaspect.com.sg/blog' },
+  alternates: { canonical: 'https://reddotemergency.com/blog' },
   openGraph: {
     title: 'Blog | RedDot Emergency',
     description: 'Expert plumbing advice for Singapore homeowners. Tips on pipe leaks, toilet chokes, water heaters, and more.',
-    url: 'https://homeaspect.com.sg/blog',
+    url: 'https://reddotemergency.com/blog',
     images: [
       {
         url: '/reddot_emergency_plumbing_logo.jfif',
