@@ -11,14 +11,22 @@ import { Button } from '@/components/ui/button';
 import { WHATSAPP_FULL_LINK, LOCATION_SLUGS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Plumbing Services Singapore - Full Range of Residential Plumbing',
+  title: 'Services | RedDot Emergency',
   description:
     'RedDot Emergency provides comprehensive plumbing services in Singapore including toilet choke repair, pipe leak repair, water heater repair, sink unblocking, and more. WhatsApp +65 8294 1906.',
   alternates: { canonical: 'https://homeaspect.com.sg/services' },
   openGraph: {
-    title: 'Plumbing Services Singapore - RedDot Emergency',
-    description: 'Comprehensive residential plumbing services across Singapore. Toilet chokes, pipe leaks, water heaters, and more.',
+    title: 'Services | RedDot Emergency',
+    description: 'Comprehensive residential plumbing services across Singapore. Toilet chokes, pipe leaks, water heaters, and more. WhatsApp +65 8294 1906.',
     url: 'https://homeaspect.com.sg/services',
+    images: [
+      {
+        url: '/reddot_emergency_plumbing_logo.jfif',
+        width: 200,
+        height: 200,
+        alt: 'RedDot Emergency Plumbing Logo',
+      },
+    ],
   },
 };
 

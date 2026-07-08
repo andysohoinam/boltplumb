@@ -10,14 +10,22 @@ import { ChevronRight } from 'lucide-react';
 import { FAQS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'FAQ - Singapore Emergency Plumbing Questions Answered',
+  title: 'FAQ | RedDot Emergency',
   description:
     'Frequently asked questions about RedDot Emergency emergency plumbing services in Singapore. Response times, pricing, HDB services, service areas, and more.',
   alternates: { canonical: 'https://homeaspect.com.sg/faq' },
   openGraph: {
-    title: 'FAQ - Singapore Emergency Plumbing Questions | RedDot Emergency',
+    title: 'FAQ | RedDot Emergency',
     description: 'Common questions about emergency plumbing in Singapore answered. Response times, pricing, HDB and condo services.',
     url: 'https://homeaspect.com.sg/faq',
+    images: [
+      {
+        url: '/reddot_emergency_plumbing_logo.jfif',
+        width: 200,
+        height: 200,
+        alt: 'RedDot Emergency Plumbing Logo',
+      },
+    ],
   },
 };
 

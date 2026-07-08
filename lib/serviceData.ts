@@ -59,7 +59,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   'toilet-bowl-choke-repair': {
     slug: 'toilet-bowl-choke-repair',
     title: 'Toilet Bowl Choke Repair',
-    metaTitle: 'Toilet Bowl Choke Repair Singapore - Fast Emergency Unblocking Service',
+    metaTitle: 'Toilet Bowl Choke Repair | RedDot Emergency',
     metaDescription:
       'Professional toilet bowl choke repair in Singapore. RedDot Emergency provides fast toilet unblocking for HDB flats and condos. Same-day service in Tampines, Bedok, Jurong and across Singapore.',
     heroDescription: 'Fast, professional toilet choke repair for HDB flats and condos across Singapore. We clear even the most stubborn blockages quickly and get your bathroom working again.',
@@ -219,7 +219,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   'pipe-leak-repair': {
     slug: 'pipe-leak-repair',
     title: 'Pipe Leak Repair',
-    metaTitle: 'Pipe Leak Repair Singapore - Urgent Water Leak & Burst Pipe Service',
+    metaTitle: 'Pipe Leak Repair | RedDot Emergency',
     metaDescription:
       'Urgent pipe leak repair in Singapore by RedDot Emergency. Fast response for burst pipes, water leaks, and pipe replacement. Available 24/7 in HDB and condo units.',
     heroDescription: 'Stop water damage fast. RedDot Emergency provides urgent pipe leak repair and water pipe replacement across Singapore with 24/7 emergency response.',
@@ -379,7 +379,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   'water-heater-repair': {
     slug: 'water-heater-repair',
     title: 'Water Heater Repair',
-    metaTitle: 'Water Heater Repair Singapore - Instant & Storage Heater Service 24/7',
+    metaTitle: 'Water Heater Repair | RedDot Emergency',
     metaDescription:
       'Water heater repair and replacement in Singapore by RedDot Emergency. Service for instant and storage water heaters in HDB, condo units. Same-day repair available.',
     heroDescription: 'Expert water heater repair and replacement for HDB flats and condos across Singapore. All brands and models serviced with same-day solutions.',
@@ -539,7 +539,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   'sink-choke-repair': {
     slug: 'sink-choke-repair',
     title: 'Sink Choke Repair',
-    metaTitle: 'Sink Choke Repair Singapore - Kitchen & Bathroom Sink Unblocking Service',
+    metaTitle: 'Sink Choke Repair | RedDot Emergency',
     metaDescription:
       'Professional sink choke repair in Singapore. RedDot Emergency clears blocked kitchen and bathroom sinks fast. Same-day service across HDB and condo units.',
     heroDescription: 'Fast sink choke repair for kitchen and bathroom sinks across Singapore. Professional clearing of clogs and blockages with preventive advice.',
@@ -699,7 +699,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   'floor-trap-choke-repair': {
     slug: 'floor-trap-choke-repair',
     title: 'Floor Trap Choke Clearing',
-    metaTitle: 'Floor Trap Choke Clearing Singapore - Bathroom Floor Drain Unblocking',
+    metaTitle: 'Floor Trap Choke Repair | RedDot Emergency',
     metaDescription:
       'Professional floor trap choke clearing in Singapore by RedDot Emergency. Fast bathroom and kitchen floor drain unblocking. Same-day service for HDB and condo units.',
     heroDescription: 'Professional floor trap choke clearing to prevent water pooling and odours in your bathroom and kitchen areas across Singapore.',
@@ -859,7 +859,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   'tap-repair': {
     slug: 'tap-repair',
     title: 'Tap Repair & Replacement',
-    metaTitle: 'Tap Repair & Replacement Singapore - Fix Leaking Taps & Install New Fixtures',
+    metaTitle: 'Tap Repair | RedDot Emergency',
     metaDescription:
       'Tap repair and replacement in Singapore by RedDot Emergency. Fix leaking taps, install new fixtures, restore water flow. Same-day service for HDB and condo units.',
     heroDescription: 'Professional tap repair and replacement services. Fix dripping taps, install new fixtures, and restore proper water flow across Singapore.',
@@ -1019,7 +1019,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   'basin-replacement': {
     slug: 'basin-replacement',
     title: 'Basin Replacement',
-    metaTitle: 'Basin Replacement Singapore - Professional Bathroom Basin Installation',
+    metaTitle: 'Basin Replacement | RedDot Emergency',
     metaDescription:
       'Professional basin replacement and installation in Singapore by RedDot Emergency. Installation for HDB and condo bathrooms and kitchens. Same-day service available.',
     heroDescription: 'Professional basin replacement and installation for HDB and condo bathrooms and kitchens across Singapore with clean, expert workmanship.',
@@ -1193,6 +1193,14 @@ export function generateServiceMetadata(slug: string): Metadata {
       title: service.metaTitle,
       description: service.metaDescription,
       url: `https://homeaspect.com.sg/services/${slug}`,
+      images: [
+        {
+          url: '/reddot_emergency_plumbing_logo.jfif',
+          width: 200,
+          height: 200,
+          alt: 'RedDot Emergency Plumbing Logo',
+        },
+      ],
     },
   };
 }

@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   metadataBase: new URL('https://homeaspect.com.sg'),
   title: {
-    default: 'RedDot Emergency - Emergency Plumber Singapore | 24 Hour Plumbing Services',
-    template: '%s | RedDot Emergency - Singapore Emergency Plumber',
+    default: 'Home | RedDot Emergency',
+    template: '%s | RedDot Emergency',
   },
   description:
     'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response for pipe leaks, toilet chokes, water heater repair, and more. WhatsApp us now at +65 8294 1906.',
@@ -37,13 +37,21 @@ export const metadata: Metadata = {
     locale: 'en_SG',
     url: 'https://homeaspect.com.sg',
     siteName: 'RedDot Emergency',
-    title: 'RedDot Emergency - Emergency Plumber Singapore | 24 Hour Plumbing Services',
+    title: 'Home | RedDot Emergency',
     description:
       '24-hour emergency plumbing services in Singapore. Fast response, transparent pricing. WhatsApp +65 8294 1906.',
+    images: [
+      {
+        url: '/reddot_emergency_plumbing_logo.jfif',
+        width: 200,
+        height: 200,
+        alt: 'RedDot Emergency Plumbing Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RedDot Emergency - Emergency Plumber Singapore',
+    title: 'Home | RedDot Emergency',
     description:
       '24-hour emergency plumbing services in Singapore. Fast response, transparent pricing.',
   },
@@ -94,7 +102,7 @@ export default function RootLayout({
       closes: '23:59',
     },
     priceRange: '$$',
-    image: 'https://homeaspect.com.sg/og-image.jpg',
+    image: 'https://homeaspect.com.sg/reddot_emergency_plumbing_logo.jfif',
     sameAs: ['https://wa.me/6582941906'],
   };
 

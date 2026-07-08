@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
 import { Header } from '@/components/shared/Header';
 import { Footer } from '@/components/shared/Footer';
 import { WhatsAppFloat } from '@/components/shared/WhatsAppFloat';
@@ -10,6 +11,29 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { WHATSAPP_FULL_LINK, SERVICE_AREAS, TRUST_ITEMS, EMERGENCY_SERVICES, LOCATION_SLUGS } from '@/lib/constants';
 import { testimonials } from '@/lib/trustData';
+
+export const metadata: Metadata = {
+  title: 'Home | RedDot Emergency',
+  description:
+    'RedDot Emergency provides 24-hour emergency plumbing services in Singapore. Fast response for burst pipes, toilet chokes, water leaks, and more. WhatsApp +65 8294 1906 now.',
+  alternates: {
+    canonical: 'https://homeaspect.com.sg',
+  },
+  openGraph: {
+    title: 'Home | RedDot Emergency',
+    description:
+      '24-hour emergency plumbing services in Singapore. Fast response for burst pipes, toilet chokes, water leaks. WhatsApp +65 8294 1906.',
+    url: 'https://homeaspect.com.sg',
+    images: [
+      {
+        url: '/reddot_emergency_plumbing_logo.jfif',
+        width: 200,
+        height: 200,
+        alt: 'RedDot Emergency Plumbing Logo',
+      },
+    ],
+  },
+};
 
 export default function HomePage() {
   return (

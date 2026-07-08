@@ -17,7 +17,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-tampines": {
     slug: "plumber-tampines",
     area: "Tampines",
-    metaTitle: "Plumber Tampines Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Tampines | RedDot Emergency",
     metaDescription: "Professional plumbing services in Tampines. Fast emergency response. WhatsApp +65 8294 1906 for instant help with burst pipes, leaks & more.",
     heroDescription: "Trusted plumbing experts serving Tampines and surrounding estates with rapid emergency response",
     overview: "Tampines, located in Singapore's East region, is one of the largest HDB towns with over 220,000 residents. The area encompasses diverse residential zones from the bustling Tampines Central to quieter enclaves near Pasir Ris. Tampines MRT station serves as a major transport hub, connecting residents across the island. The neighborhood features Our Tampines Hub, a vibrant community center, alongside numerous residential estates spanning multiple blocks. Being a well-established town, many HDB flats in Tampines were built in the 1980s and 1990s, resulting in aging plumbing infrastructure that frequently requires professional maintenance. The high population density and mix of residential blocks create unique plumbing challenges, from routine maintenance to complex multi-unit coordination. RedDot Emergency understands these specific challenges and provides tailored plumbing solutions for Tampines residents and businesses.",
@@ -76,7 +76,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-bedok": {
     slug: "plumber-bedok",
     area: "Bedok",
-    metaTitle: "Plumber Bedok Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Bedok | RedDot Emergency",
     metaDescription: "Expert plumbing in Bedok. Same-day emergency response for leaks, pipe repairs & blockages. Call WhatsApp +65 8294 1906 now.",
     heroDescription: "Experienced plumbers serving Bedok's mature estate with swift emergency repairs and reliable maintenance",
     overview: "Bedok, situated in Singapore's East region, is one of the island's oldest and most established HDB towns with a population exceeding 280,000. The area stretches from Bedok MRT station across numerous residential blocks, shopping centers, and community facilities. Bedok is renowned for its mature community, stable infrastructure, and vibrant neighborhood character. However, the plumbing infrastructure in many Bedok flats reflects the estate's age, with extensive pipework installed in the 1970s and 1980s. This means residents frequently encounter issues related to pipe deterioration, outdated fixtures, and systems pushed beyond their original design lifespan. The dense residential layout, combined with aging infrastructure, creates complex plumbing challenges that require experienced professionals. RedDot Emergency specializes in serving Bedok's unique needs, from routine repairs to comprehensive system upgrades.",
@@ -135,7 +135,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-jurong": {
     slug: "plumber-jurong",
     area: "Jurong",
-    metaTitle: "Plumber Jurong Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Jurong | RedDot Emergency",
     metaDescription: "Professional plumbing services in Jurong with quick emergency response. Burst pipes, leaks & blockages. WhatsApp +65 8294 1906.",
     heroDescription: "Skilled plumbers delivering dependable service across Jurong's diverse residential neighborhoods",
     overview: "Jurong, located in Singapore's West region, is a vast and diverse area spanning from Jurong East through multiple residential and industrial zones. The neighborhood is anchored by Jurong East MRT station, a major transport interchange serving residents and workers. Jurong encompasses both aging HDB estates from the 1970s-80s and newer developments from recent years, creating a unique landscape of mixed-age plumbing infrastructure. The area is home to over 200,000 residents across numerous housing blocks, private condominiums, and commercial spaces. This architectural diversity means plumbing requirements vary significantly across the region. Older Jurong estates face challenges similar to mature towns, while newer developments present different complications related to higher water usage and modern system configurations. RedDot Emergency's extensive experience across Jurong enables us to address plumbing needs for any property type or age.",
@@ -194,7 +194,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-woodlands": {
     slug: "plumber-woodlands",
     area: "Woodlands",
-    metaTitle: "Plumber Woodlands Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Woodlands | RedDot Emergency",
     metaDescription: "Reliable plumbing services in Woodlands with rapid emergency response. Leak repairs, blockages & burst pipes. WhatsApp +65 8294 1906.",
     heroDescription: "Dedicated plumbers serving Woodlands newer HDB developments with expert, responsive service",
     overview: "Woodlands, located in Singapore's North region, represents one of the island's most actively developed residential areas. Built largely from the 1990s onward with accelerated development in recent decades, Woodlands offers predominantly newer HDB estates compared to mature towns. Woodlands MRT station serves as the primary transport hub, connecting residents with the rest of the island while maintaining strong integration with Malaysian causeway traffic. The neighborhood encompasses multiple self-contained residential towns with modern amenities, community centers, and recreational facilities. Unlike older estates, Woodlands' newer plumbing infrastructure generally features more advanced materials and configurations. However, the rapid expansion and younger resident population create different plumbing challenges, including higher water consumption from younger families, modern fixture failures, and coordination complexities with ongoing regional development. RedDot Emergency serves Woodlands' unique needs with expertise in contemporary plumbing systems.",
@@ -253,7 +253,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-sengkang": {
     slug: "plumber-sengkang",
     area: "Sengkang",
-    metaTitle: "Plumber Sengkang Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Sengkang | RedDot Emergency",
     metaDescription: "Expert plumbing in Sengkang with 24-hour emergency response. Fast service for leaks, blockages & repairs. WhatsApp +65 8294 1906.",
     heroDescription: "Professional plumbers serving Sengkang's contemporary HDB town with quick, reliable solutions",
     overview: "Sengkang, situated in Singapore's North-East region, represents one of the newer and more comprehensively planned HDB new towns. Developed from the 1990s with major expansions in the 2000s and beyond, Sengkang features modern architecture, integrated community facilities, and the unique dual-transport system combining Sengkang MRT and LRT lines. The area accommodates approximately 260,000 residents across thoughtfully designed residential neighborhoods connected by parks and recreational spaces. Being relatively newer, most Sengkang plumbing infrastructure is contemporary, installed within the last 15-25 years, featuring modern materials and configurations. However, the first-generation flats are now reaching typical replacement ages for certain components, requiring professional assessment and planned maintenance. The town's modern design and younger resident demographic create distinct plumbing needs compared to older estates. RedDot Emergency specializes in maintaining Sengkang's contemporary systems efficiently and affordably.",
@@ -312,7 +312,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-punggol": {
     slug: "plumber-punggol",
     area: "Punggol",
-    metaTitle: "Plumber Punggol Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Punggol | RedDot Emergency",
     metaDescription: "Specialist plumbing in Punggol with rapid emergency response. Modern BTO estates served. Call WhatsApp +65 8294 1906.",
     heroDescription: "Expert plumbers for Punggol's modern BTO estates and developments with advanced, responsive service",
     overview: "Punggol, located in Singapore's North-East region, represents the cutting edge of Singapore's HDB development strategy. The area encompasses relatively new BTO (Build-To-Order) estates, mature neighborhoods, and ongoing new development projects. Served by Punggol MRT and the Punggol LRT line, the area maintains excellent transport connectivity while preserving a spacious, tree-lined environment. The neighborhood accommodates approximately 280,000 residents with housing spanning from brand-new BTOs with modern amenities to more established developments from the 2000s-2010s. Punggol's newer BTOs feature state-of-the-art plumbing infrastructure with contemporary materials, water-efficient fixtures, and modern system configurations. These newer installations generally require fewer repairs but need different maintenance approaches than aged systems. Punggol's younger resident demographic and contemporary housing mean plumbing needs differ significantly from older towns. RedDot Emergency understands Punggol's modern systems and emerging needs.",
@@ -371,7 +371,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-yishun": {
     slug: "plumber-yishun",
     area: "Yishun",
-    metaTitle: "Plumber Yishun Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Yishun | RedDot Emergency",
     metaDescription: "Professional plumbing in Yishun for mixed-age estates. Quick emergency response & repairs. WhatsApp +65 8294 1906 anytime.",
     heroDescription: "Experienced plumbers serving Yishun's diverse housing mix with expert, dependable service",
     overview: "Yishun, located in Singapore's North region, is a diverse residential area comprising both older HDB estates from the 1980s and newer developments from subsequent decades. Anchored by Yishun MRT station, the neighborhood stretches across expansive residential zones, shopping centers, and recreational facilities. The area accommodates approximately 260,000 residents in a blend of community types, from multi-generational families to young working professionals. Yishun's heterogeneous building stock means plumbing challenges vary significantly across neighborhoods. Older blocks feature deteriorated infrastructure similar to other mature estates, while newer sections present contemporary system issues. This mix requires plumbers with broad expertise across different plumbing generations. RedDot Emergency's extensive experience serving Yishun's diverse neighborhoods positions us uniquely to address each area's specific needs efficiently.",
@@ -430,7 +430,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-hougang": {
     slug: "plumber-hougang",
     area: "Hougang",
-    metaTitle: "Plumber Hougang Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Hougang | RedDot Emergency",
     metaDescription: "Trusted plumbing in Hougang's mature estate. 24-hour emergency service for leaks, blockages & repairs. WhatsApp +65 8294 1906.",
     heroDescription: "Specialized plumbers serving Hougang's mature HDB estate with expert, rapid emergency response",
     overview: "Hougang, situated in Singapore's North-East region, is one of the island's most established residential areas. Developed primarily from the 1980s with continued expansion through the 1990s, Hougang accommodates approximately 290,000 residents across extensively planned HDB neighborhoods. Anchored by Hougang MRT station with connecting bus networks, the area maintains excellent connectivity despite its mature character. Hougang is characterized by its stable, family-oriented community and well-developed infrastructure. However, the area's age means most plumbing infrastructure dates from 3-4 decades ago, placing many systems at or beyond their designed serviceable lifespan. The combination of aging pipes, tropical climate conditions, and high-density residential use creates specific challenges unique to mature estates like Hougang. Professional maintenance and timely system upgrades are essential for Hougang residents. RedDot Emergency's experience with mature estate plumbing positions us as specialists in Hougang's needs.",
@@ -489,7 +489,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-ang-mo-kio": {
     slug: "plumber-ang-mo-kio",
     area: "Ang Mo Kio",
-    metaTitle: "Plumber Ang Mo Kio Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Ang Mo Kio | RedDot Emergency",
     metaDescription: "Expert plumbing in Ang Mo Kio, Singapore's oldest HDB town. Fast emergency service. WhatsApp +65 8294 1906.",
     heroDescription: "Specialist plumbers for Ang Mo Kio's historic HDB town with comprehensive, experienced service",
     overview: "Ang Mo Kio, located in Singapore's Central region, holds the distinction of being one of the island's oldest and most established HDB towns. Developed beginning in the late 1970s, Ang Mo Kio now accommodates over 280,000 residents across numerous residential zones and community facilities. Ang Mo Kio MRT station serves as the primary transport hub, with extensive bus networks connecting residents across the island. The neighborhood represents a mature, multi-generational community with deep roots and strong social cohesion. However, Ang Mo Kio's pioneering status means its plumbing infrastructure is among the oldest in Singapore. Most systems were installed 40-45 years ago or longer, significantly exceeding typical design lifespans. The combination of advanced age, high-density occupation, and tropical climate conditions creates urgent plumbing maintenance needs. RedDot Emergency specializes in serving historic estates like Ang Mo Kio, understanding both their heritage and their contemporary challenges.",
@@ -548,7 +548,7 @@ export const locationDetails: Record<string, LocationDetail> = {
   "plumber-bukit-batok": {
     slug: "plumber-bukit-batok",
     area: "Bukit Batok",
-    metaTitle: "Plumber Bukit Batok Singapore - 24 Hour Emergency Plumbing | RedDot Emergency",
+    metaTitle: "Plumber Bukit Batok | RedDot Emergency",
     metaDescription: "Professional plumbing in Bukit Batok. Rapid emergency response for all plumbing issues. WhatsApp +65 8294 1906 24/7.",
     heroDescription: "Experienced plumbers serving Bukit Batok's diverse housing stock with quick, reliable solutions",
     overview: "Bukit Batok, located in Singapore's West region, represents a diverse residential area spanning from early HDB developments of the 1980s through more recent projects. The area is anchored by Bukit Batok MRT station with comprehensive bus networks providing excellent connectivity. Bukit Batok accommodates approximately 200,000 residents across varied neighborhoods reflecting different development eras. The area contains a notable mix of older HDB blocks from Bukit Batok's initial development phase alongside newer housing types, creating heterogeneous housing stock. This architectural diversity means plumbing systems range from aged infrastructure nearing replacement life to contemporary installations. The neighborhood's proximity to industrial zones in Jurong sometimes affects water quality and supply characteristics. Bukit Batok's mix of old and new developments requires plumbers with versatile expertise spanning multiple plumbing generations. RedDot Emergency's experience across Bukit Batok's diverse neighborhoods positions us uniquely to serve each area's specific requirements efficiently.",

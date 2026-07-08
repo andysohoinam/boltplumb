@@ -8,13 +8,21 @@ import { CTASection } from '@/components/shared/CTASection';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Plumbing Tips & Guides Singapore | RedDot Emergency Blog',
+  title: 'Blog | RedDot Emergency',
   description: 'Expert plumbing tips, guides, and maintenance advice for Singapore homeowners. Learn about pipe leaks, toilet chokes, water heaters, and HDB plumbing.',
   alternates: { canonical: 'https://homeaspect.com.sg/blog' },
   openGraph: {
-    title: 'Plumbing Tips & Guides Singapore | RedDot Emergency Blog',
+    title: 'Blog | RedDot Emergency',
     description: 'Expert plumbing advice for Singapore homeowners. Tips on pipe leaks, toilet chokes, water heaters, and more.',
     url: 'https://homeaspect.com.sg/blog',
+    images: [
+      {
+        url: '/reddot_emergency_plumbing_logo.jfif',
+        width: 200,
+        height: 200,
+        alt: 'RedDot Emergency Plumbing Logo',
+      },
+    ],
   },
 };
 

@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { SERVICES, LOCATION_SLUGS } from '@/lib/constants';
 import { blogArticleSlugs } from '@/lib/blogData';
 
-const SITE_URL = 'https://reddotemergency.com';
+const SITE_URL = 'https://homeaspect.com.sg';
 export const dynamic = 'force-static';
 export const revalidate = false;
 export default function sitemap(): MetadataRoute.Sitemap {

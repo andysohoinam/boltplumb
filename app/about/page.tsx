@@ -10,14 +10,22 @@ import { BadgeCheck, CheckCircle, Zap, Shield, Wrench, Clock, Award, Heart } fro
 import { ABOUT_IMAGES } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'About RedDot Emergency - Trusted Singapore Emergency Plumber',
+  title: 'About | RedDot Emergency',
   description:
-    'Learn about RedDot Emergency, Singapore\'s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing, and fast response across all areas.',
+    'Learn about RedDot Emergency, Singapore&apos;s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing, and fast response across all areas.',
   alternates: { canonical: 'https://homeaspect.com.sg/about' },
   openGraph: {
-    title: 'About RedDot Emergency - Trusted Singapore Emergency Plumber',
-    description: 'Singapore\'s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing.',
+    title: 'About | RedDot Emergency',
+    description: 'Singapore&apos;s trusted 24-hour emergency plumbing service. Experienced technicians, transparent pricing.',
     url: 'https://homeaspect.com.sg/about',
+    images: [
+      {
+        url: '/reddot_emergency_plumbing_logo.jfif',
+        width: 200,
+        height: 200,
+        alt: 'RedDot Emergency Plumbing Logo',
+      },
+    ],
   },
 };
 

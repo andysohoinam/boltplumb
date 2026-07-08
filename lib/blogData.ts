@@ -15,7 +15,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "signs-of-hidden-pipe-leaks": {
     slug: "signs-of-hidden-pipe-leaks",
     title: "Signs of Hidden Pipe Leaks in Singapore Homes",
-    metaTitle: "Signs of Hidden Pipe Leaks | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Signs of Hidden Pipe Leaks | RedDot Emergency",
     metaDescription: "Detect hidden pipe leaks early in your Singapore home. Learn warning signs like water stains, odors, and mold growth affecting HDB and condos.",
     heroDescription: "Hidden pipe leaks can cause serious damage to your Singapore home before you even notice them. Discover the key warning signs to identify leaks early.",
     publishedDate: "2024-01-15",
@@ -89,7 +89,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "common-causes-of-toilet-chokes": {
     slug: "common-causes-of-toilet-chokes",
     title: "Common Causes of Toilet Chokes in Singapore",
-    metaTitle: "Common Causes of Toilet Chokes | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Common Causes of Toilet Chokes | RedDot Emergency",
     metaDescription: "Understand why toilet chokes happen in Singapore. Learn prevention tips and when to call emergency plumbing services for HDB and condo bathrooms.",
     heroDescription: "Toilet chokes are among the most frequent plumbing emergencies in Singapore homes. Discover what causes them and how to prevent blockages.",
     publishedDate: "2024-02-20",
@@ -163,7 +163,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "emergency-plumbing-checklist": {
     slug: "emergency-plumbing-checklist",
     title: "Emergency Plumbing Checklist for Singapore Homeowners",
-    metaTitle: "Emergency Plumbing Checklist | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Emergency Plumbing Checklist | RedDot Emergency",
     metaDescription: "Be prepared for plumbing emergencies in your Singapore home. Download our comprehensive checklist for HDB and condo emergencies.",
     heroDescription: "Plumbing emergencies can happen anytime. Use this checklist to respond quickly and protect your Singapore home from water damage.",
     publishedDate: "2024-03-10",
@@ -237,7 +237,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "water-heater-failure-warning-signs": {
     slug: "water-heater-failure-warning-signs",
     title: "Water Heater Failure Warning Signs",
-    metaTitle: "Water Heater Failure Warning Signs | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Water Heater Failure Warning Signs | RedDot Emergency",
     metaDescription: "Recognize water heater problems before complete failure. Learn warning signs for gas and electric heaters in Singapore homes and when to replace.",
     heroDescription: "Water heaters don't last forever. Identify the warning signs of failure and prevent cold showers and water damage in your Singapore home.",
     publishedDate: "2024-04-05",
@@ -311,7 +311,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "hdb-plumbing-problems": {
     slug: "hdb-plumbing-problems",
     title: "Common HDB Plumbing Problems and Solutions",
-    metaTitle: "Common HDB Plumbing Problems | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Common HDB Plumbing Problems | RedDot Emergency",
     metaDescription: "Discover solutions for typical HDB plumbing issues. From drain problems to water pressure, learn when to call your Town Council or a plumber.",
     heroDescription: "HDB units face unique plumbing challenges due to age and shared infrastructure. Learn how to solve common problems affecting your home.",
     publishedDate: "2024-05-12",
@@ -385,7 +385,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "condo-plumbing-maintenance-tips": {
     slug: "condo-plumbing-maintenance-tips",
     title: "Condo Plumbing Maintenance Tips in Singapore",
-    metaTitle: "Condo Plumbing Maintenance | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Condo Plumbing Maintenance | RedDot Emergency",
     metaDescription: "Essential maintenance tips for condo plumbing in Singapore. Prevent costly repairs and protect shared infrastructure with regular upkeep.",
     heroDescription: "Condominium plumbing requires proactive maintenance to prevent emergencies. Learn maintenance practices that protect both your unit and shared systems.",
     publishedDate: "2024-06-18",
@@ -459,7 +459,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "how-to-prevent-drain-blockages": {
     slug: "how-to-prevent-drain-blockages",
     title: "How to Prevent Drain Blockages in Singapore Homes",
-    metaTitle: "How to Prevent Drain Blockages | RedDot Emergency Singapore Plumbing",
+    metaTitle: "How to Prevent Drain Blockages | RedDot Emergency",
     metaDescription: "Prevent expensive drain blockages with these proven methods for Singapore kitchens and bathrooms. Learn what to flush and what to avoid.",
     heroDescription: "Drain blockages cause frustration and expensive repairs. Learn practical prevention strategies that keep your Singapore home's drains flowing freely.",
     publishedDate: "2024-07-22",
@@ -533,7 +533,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "burst-pipe-emergency-guide": {
     slug: "burst-pipe-emergency-guide",
     title: "Burst Pipe Emergency Guide for Singapore Residents",
-    metaTitle: "Burst Pipe Emergency Guide | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Burst Pipe Emergency Guide | RedDot Emergency",
     metaDescription: "Immediate steps to take when a pipe bursts in your Singapore home. Minimize water damage and protect your property with emergency response procedures.",
     heroDescription: "A burst pipe requires immediate action to prevent catastrophic water damage. Follow this emergency guide to protect your Singapore home.",
     publishedDate: "2024-08-30",
@@ -607,7 +607,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "when-to-call-emergency-plumber": {
     slug: "when-to-call-emergency-plumber",
     title: "When to Call an Emergency Plumber in Singapore",
-    metaTitle: "When to Call Emergency Plumber | RedDot Emergency Singapore Plumbing",
+    metaTitle: "When to Call Emergency Plumber | RedDot Emergency",
     metaDescription: "Know when plumbing problems require emergency service vs. scheduling repairs. Learn what qualifies as urgent in Singapore homes.",
     heroDescription: "Some plumbing issues demand immediate emergency response. Know which problems warrant urgent action and which can wait for scheduled service.",
     publishedDate: "2024-09-15",
@@ -681,7 +681,7 @@ export const blogArticles: Record<string, BlogArticle> = {
   "plumbing-maintenance-tips": {
     slug: "plumbing-maintenance-tips",
     title: "Plumbing Maintenance Tips for Singapore Homes",
-    metaTitle: "Plumbing Maintenance Tips | RedDot Emergency Singapore Plumbing",
+    metaTitle: "Plumbing Maintenance Tips | RedDot Emergency",
     metaDescription: "Regular plumbing maintenance prevents costly emergencies. Learn seasonal maintenance tasks and inspections for Singapore homeowners.",
     heroDescription: "Proactive plumbing maintenance saves money and prevents emergencies. Follow these practical tips to keep your Singapore home's plumbing healthy.",
     publishedDate: "2024-10-08",

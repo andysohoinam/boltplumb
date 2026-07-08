@@ -10,14 +10,22 @@ import { Button } from '@/components/ui/button';
 import { WHATSAPP_FULL_LINK } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
+  title: 'Contact | RedDot Emergency',
   description:
     'Contact RedDot Emergency for 24-hour emergency plumbing services in Singapore. WhatsApp +65 8294 1906 or call for fast response.',
-  alternates: { canonical: 'https://www.reddotemergency.com/contact' },
+  alternates: { canonical: 'https://homeaspect.com.sg/contact' },
   openGraph: {
-    title: 'Contact RedDot Emergency - Emergency Plumber Singapore',
+    title: 'Contact | RedDot Emergency',
     description: 'WhatsApp or call RedDot Emergency for 24-hour emergency plumbing. Fast response across Singapore.',
-    url: 'https://www.reddotemergency.com/contact',
+    url: 'https://homeaspect.com.sg/contact',
+    images: [
+      {
+        url: '/reddot_emergency_plumbing_logo.jfif',
+        width: 200,
+        height: 200,
+        alt: 'RedDot Emergency Plumbing Logo',
+      },
+    ],
   },
 };
 
